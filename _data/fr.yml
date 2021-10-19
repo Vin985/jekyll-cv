@@ -1,0 +1,130 @@
+name: Sylvain Christin
+support_dark_mode: false
+fork: false
+
+# Sidebar
+contact:
+  email: sylvain.christin@gmail.com
+  # github: johndoe
+  # linkedin: johndoe
+  phone: (450) 880-0256
+  gitlab: 
+  twitter: 
+
+languages:
+  title: Langues
+  idioms:
+    - Fran&ccedil;ais
+    - Anglais
+
+
+education:
+  title: Formation
+  degrees:
+    - degree: MSc in Informatics
+      start: 2014
+      end: 2016
+      university: Ionian University
+
+    - degree: BSc in Computer Science
+      time: 2010-2014
+      university: Ionian University
+
+skills:
+  title: Talents
+  categories:
+    - category: Backend
+      skill: 
+        - Go
+        - Rust
+    - category: Frontend
+      skill:
+        - React
+        - Typescript
+    - category: DevOps
+      skill:
+        - Docker
+        - Kubernetes 
+
+# Profile
+profile: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+  fugiat nulla pariatur.
+
+# Experience
+experience:
+  title: Exp&eacute;rience professionnelle
+  roles:
+    - role: Software Engineer
+      time: 2020-Present
+      company: Google
+      details: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur.
+      technologies_used: | 
+        Go, Angular, Typescript, C++
+  
+    - role: Researcher
+      time: 2016-2020
+      company: Microsoft
+      details: |
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+        fugiat nulla pariatur.
+      technologies_used: | 
+        Python, Tensorflow, Keras, Matlab
+
+publications:
+  title: Publications
+  items:
+    - title: Random title of paper. An interesting one.
+      authors: John E. Doe
+      journal: Some conference, 2016
+      date:
+      DOI:
+    - title: Random title of paper. An interesting one.
+      authors: John E. Doe
+      journal: Some conference, 2016
+      date:
+      DOI:
+
+presentations:
+  title: Pr&eacute;sentations
+  oral.title: Pr&eacute;sentations orales
+  posters.title: Pr&eacute;sentations par affiche
+  oral:
+    - title: Random title of paper. An interesting one.
+      authors: John E. Doe
+      journal: Some conference, 2016
+      date:
+      conference:
+    - title: Random title of paper. An interesting one.
+      authors: John E. Doe
+      journal: Some conference, 2016
+      date:
+      conference:
+  posters:
+    - title: Random title of paper. An interesting one.
+      authors: John E. Doe
+      journal: Some conference, 2016
+      date:
+      DOI:
+
+
+# Volunteering
+volunteering:
+  - time: 2020-Present
+    role: PR Manager
+    company: Some random organization
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
