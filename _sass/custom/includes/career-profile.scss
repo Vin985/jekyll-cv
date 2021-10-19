@@ -4,5 +4,9 @@
     }
     .details {
         @include body-text;
+
+        ul {
+            padding-left: 15px;
+        }
     }
 }

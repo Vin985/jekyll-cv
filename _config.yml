@@ -17,5 +17,9 @@ exclude:
 lang: "fr"
 css_theme: "custom"
 
+use_months: True
+use_short_months: True
+show_degree_title: False
+
 type:
   - "biology"

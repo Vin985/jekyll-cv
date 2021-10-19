@@ -4,16 +4,36 @@
         @include header;
     }
     .education-item {
-        margin-bottom: 20px;
+        margin-bottom: 12px;
+
+        > * {
+            margin-bottom: 3px;
+        }
+
+        .item-header {
+            display: grid;
+            grid-gap: 50px;
+            
+        }
         .degree {
             @include sub-header;
             font-weight: bold;
+            grid-row: 1;
+            grid-column: 1;
         }
-        .university {
+        .location {
             @include body-text;
         }
         .time {
             @include body-text;
+            grid-row: 1;
+            grid-column: 2;
+            text-align: end;
+            font-weight: bold;
+        }
+        .degree_title {
+            @include body-text;
+            font-style: italic;
         }
     }
 }

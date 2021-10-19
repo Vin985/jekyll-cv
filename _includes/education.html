@@ -1,12 +1,53 @@
-{% assign education = site.data[site.lang].education %}
+{%- assign data = site.data[site.lang]-%}
+{%- assign education = data.education -%}
 {% if education %}
 <section class="education">
     <div class="title">{{education.title}}</div>
     {% for degree in education.degrees %}
+    {% assign location = degree.location %}
     <div class="education-item">
-        <div class="degree">{{degree.degree}}</div>
-        <div class="university">{{degree.university}}</div>
-        <div class="time">{{degree.start}} - {{degree.end}}</div>
+        <div class="item-header">
+            <div class="degree">
+                {{degree.degree}}
+            </div>
+            <div class="time">
+                {%- if degree.start -%}
+                {%- if site.use_months and degree.start.month %}
+                {%- if site.use_short_months -%}
+                {{data.months_short[degree.start.month]}}
+                {%- else -%}
+                {{data.months_long[degree.start.month]}}
+                {%- endif -%}
+                {% endif %}
+                {{degree.start.year}} -
+                {%endif%}
+                {% if site.use_months and degree.end.month %}
+                {%- if site.use_short_months -%}
+                {{data.months_short[degree.end.month]}}
+                {%- else -%}
+                {{data.months_long[degree.end.month]}}
+                {% endif %}
+                {% endif %}
+                {{degree.end.year}}
+            </div>
+        </div>
+        {%- if degree.title and site.show_degree_title -%}
+        <div class="degree_title">
+            {{degree.title}}
+        </div>
+        {%-endif-%}
+        <div class="location">
+            {{location.name}}
+            {%- if location.city -%}
+            {{location.city | prepend: ", "}}
+            {%- endif -%}
+            {%- if location.province -%}
+            {{location.province | prepend: ", "}}
+            {%- endif -%}
+            {%- if location.country -%}
+            {{location.country | prepend: ", "}}
+            {%- endif -%}
+        </div>
     </div>
     {% endfor %}
 </section>

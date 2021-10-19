@@ -1,20 +1,58 @@
-{% assign experience = site.data.data.experience %}
+{%- assign data = site.data[site.lang]-%}
+{% assign experience = data.job_experience %}
 {% if experience %}
-<section class="experiance">
-    <h2 class="title">Experience</h2>
-    {% for exp in experience %}
-        <div class="experience-item">
+<section class="experience">
+    <h2 class="title">{{experience.title}}</h2>
+    {% for job in experience.jobs %}
+    {% assign location = job.location %}
+    <div class="experience-item">
+        <div class=item-header>
             <div class="role">
-                {{exp.role}}
+                {{job.role}}
             </div>
-            <div class="company">
-                {{exp.company}} 
-                <span class="time">{{exp.time}}</span>
-            </div> 
-            <div class="details">{{exp.details}}</div>
-            <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            <div class="time">
+                {%- if job.start -%}
+                {%- if site.use_months and job.start.month %}
+                {%- if site.use_short_months -%}
+                {{data.months_short[job.start.month]}}
+                {%- else -%}
+                {{data.months_long[job.start.month]}}
+                {%- endif -%}
+                {% endif %}
+                {{job.start.year}} -
+                {%endif%}
+                {% if site.use_months and job.end.month %}
+                {%- if site.use_short_months -%}
+                {{data.months_short[job.end.month]}}
+                {%- else -%}
+                {{data.months_long[job.end.month]}}
+                {% endif %}
+                {% endif %}
+                {{job.end.year}}
+            </div>
         </div>
-       
+        <div class="location">
+            {{location.name}}
+            {%- if location.city -%}
+            {{location.city | prepend: ", "}}
+            {%- endif -%}
+            {%- if location.province -%}
+            {{location.province | prepend: ", "}}
+            {%- endif -%}
+            {%- if location.country -%}
+            {{location.country | prepend: ", "}}
+            {%- endif -%}
+        </div>
+        <div class="details">
+            <ul>
+                {% for detail in job.details %}
+                <li class="detail">
+                    {{detail}}
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    </div>
     {% endfor %}
 </section>
 {% endif %}

@@ -2,6 +2,8 @@ name: Sylvain Christin
 support_dark_mode: false
 fork: false
 
+objective: Biologiste
+
 # Sidebar
 contact:
   email: sylvain.christin@gmail.com
@@ -17,70 +19,232 @@ languages:
     - Fran&ccedil;ais
     - Anglais
 
+months_long: [
+  "", # because indexings starts at 0 and operations are not allowed while indexing
+  "Janvier",
+  "F&eacute;vrier",
+  "Mars",
+  "Avril",
+  "Mai",
+  "Juin",
+  "Juillet",
+  "Ao&ucirc;t",
+  "Septembre",
+  "Octobre",
+  "Novembre",
+  "D&eactue;cembre"
+  ]
 
+months_short: [
+  "", # because indexings starts at 0 and operations are not allowed while indexing
+  "Janv.",
+  "F&eacute;v.",
+  "Mars",
+  "Avril",
+  "Mai",
+  "Juin",
+  "Juil.",
+  "Ao&ucirc;t",
+  "Sept.",
+  "Oct.",
+  "Nov.",
+  "D&eacute;c.",
+  ]
+
+# Education
 education:
   title: Formation
   degrees:
-    - degree: MSc in Informatics
-      start: 2014
-      end: 2016
-      university: Ionian University
+    - degree: Doctorat en sciences de la vie
+      title: "Influence des changements climatiques sur la ph&eacute;nologie des oiseaux arctiques: une approche bioacoustique"
+      start: 
+        year: 2017
+        month: 9
+      end:
+        year: Pr&eacute;sent
+        month: 
+      location:
+        name: Universit&eacute; de Moncton
+        city: Moncton
+        province: Nouveau-Brunswick
+        country: Canada 
+    - degree: "Ma&icirc;trise en gestion de la faune et de ses habitats"
+      title: "&Eacute;valuation empirique de la pr&eacute;cision du suivi t&eacute;l&eacute;m&eacute;trique Argos dans le Haut-Arctique et implications pour l'estimation de domaines vitaux"
+      start: 
+        year: 2012
+        month: 5
+      end:
+        year: 2014
+        month: 6
+      location:
+        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+    - degree: "Dipl&ocirc;me d'&Eacute;tudes Sup&eacute;rieures Sp&eacute;cialis&eacute;es (DESS) en gestion de la faune et de ses habitats"
+      start: 
+        year: 2011
+        month: 9
+      end:
+        year: 2013
+        month: 4
+      location:
+        name: "Universit&eacute; du Qu&eacute;bec &agrave; Rimouski"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada
+    - degree: "Baccalaur&eacute;at en biologie concentration &eacute;cologie - Mention d'excellence"
+      start: 
+        year: 2008
+        month: 9
+      end:
+        year: 2011
+        month: 4
+      location:
+        name: "Universit&eacute; du Qu&eacute;bec &agrave; Rimouski"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada
+    - degree: "Dipl&ocirc;me d'ing&eacute;nieur en informatique"
+      start: 
+        year: 2003
+        month: 9
+      end:
+        year: 2006
+        month: 4
+      location:
+        name: "&Eacute;cole Pour l'Informatique et les Techniques Avanc&eacute;es (EPITA)"
+        city: Kremlin-Bic&ecirc;tre
+        country: France
+    - degree: "Classe pr&eacute;paratoire aux Grandes &Eacute;coles"
+      start: 
+        year: 2001
+        month: 9
+      end:
+        year: 2003
+        month: 4
+      location:
+        name: Lyc&eacute;e St Louis
+        city: Paris
+        country: France
+    - degree: "Baccalaur&eacute;at scientifique - mention Bien"
+      end:
+        year: 2003
+      location:
+        name: Lyc&eacute;e Van Gogh
+        city: Ermont
+        country: France
 
-    - degree: BSc in Computer Science
-      time: 2010-2014
-      university: Ionian University
-
-skills:
-  title: Talents
-  categories:
-    - category: Backend
-      skill: 
-        - Go
-        - Rust
-    - category: Frontend
-      skill:
-        - React
-        - Typescript
-    - category: DevOps
-      skill:
-        - Docker
-        - Kubernetes 
 
 # Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+profile:
+  title: Comp&eacute;tences
+  items: [
+    "Double dipl&ocirc;me en Biologie et en Informatique",
+    "R&eacute;diger et pr&eacute;senter des rapports scientifiques et vulgaris&eacute;s",
+    "Mettre en place et utiliser des protocoles de collectes de donn&eacute;es et d'&eacute;chantillons",
+    "Compiler, analyser et interpr&eacute;ter des donn&eacute;es scientifiques",
+    "Capturer, manipuler et baguer des oiseaux marins (fous de bassan et eiders &agrave; duvet)",
+    "D&eacute;ployer des consignateurs de donn&eacute;es externes et des g&eacute;olocateurs sur des oiseaux",
+    "Bonnes capacit&eacute;s d'adaptation, de planification et apprentissage rapide",
+    "D&eacute;velopper des logiciels dans divers langages de programmation (R, Python, Java, PHP, HTML, C, C++, HTML, Perl, Caml)",
+  ]
+    
 
 # Experience
-experience:
-  title: Exp&eacute;rience professionnelle
-  roles:
-    - role: Software Engineer
-      time: 2020-Present
-      company: Google
-      details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-        fugiat nulla pariatur.
-      technologies_used: | 
-        Go, Angular, Typescript, C++
-  
-    - role: Researcher
-      time: 2016-2020
-      company: Microsoft
-      details: |
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-        fugiat nulla pariatur.
-      technologies_used: | 
-        Python, Tensorflow, Keras, Matlab
+job_experience:
+  title: Exp&eacute;riences professionnelles pertinentes
+  jobs:
+    - role: "Présentateur d'ateliers de formation à R"
+      tags: ["biology", "statistics", "teaching", "R"]
+      start:
+        month: 6
+        year: 2014
+      end:
+        month: 12
+        year: 2020
+      location:
+        name: Centre de la Science de la Biodiversité du Québec 
+      # location:
+      #   name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+      #   city: Rimouski
+      #   province: Qu&eacute;bec
+      #   country: Canada 
+      details: ["Conception et présentation d’une série d’ateliers de formation à l’outil de statistique R pour des étudiants de 2e et 3e cycle universitaire"]
+    - role: "Biologiste"
+      tags: ["biology", "statistics", "data analysis", "R"]
+      start:
+        month: 12
+        year: 2016
+      end:
+        month: 3
+        year: 2018
+      location:
+        name: "Service Canadien de la Faune"
+        city: Qu&eacute;bec
+        province: Qu&eacute;bec
+        country: Canada 
+      details: ["Analyse de bases de données d’observations d’oiseaux marins",
+                "Développement d’outils et d’applications web avec R et Shiny"]
+    - role: "Consultant informatique"
+      tags: ["IT", "web design", "consulting"]
+      start:
+        year: 2009
+      end:
+        year: 2014
+      location:
+        name: "Paniers d'ici"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+      details: [
+        "Développement de modules visant à améliorer le confort d'utilisation du site de commande en ligne de l'OSBL Paniers d'ici pour la promotion des produits locaux",
+        "Résolution de problèmes informatiques"
+        ]
+    - role: "Auxiliaire d'enseignement"
+      tags: ["biology", "teaching", "statistics", R]
+      start:
+        month: 9
+        year: 2013
+      end:
+        month: 12
+        year: 2013
+      location:
+        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+      details: ["Enseignement de laboratoires dans le cours de Biostatistiques I "]
+    - role: "Animateur d'ateliers de vulgarisation"
+      tags: ["biology", "teaching", "popularization"]
+      start:
+        month: 1
+        year: 2012
+      end:
+        month: 04
+        year: 2013
+      location:
+        name: "Carrefour des sciences"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+      details: ["Conception et animation d'un atelier sur la biodiversité animale pour des étudiants de secondaire dans le cadre des journées <i>J'suis capable</i>"]
+    - role: "Consultant informatique"
+      tags: ["IT", "web design", "consulting"]
+      start:
+        year: 2009
+      end:
+        year: 2014
+      location:
+        name: "Paniers d'ici"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+      details: [
+        "Développement de modules visant à améliorer le confort d'utilisation du site de commande en ligne de l'OSBL Paniers d'ici pour la promotion des produits locaux",
+        "Résolution de problèmes informatiques"
+        ]
+
 
 publications:
   title: Publications
