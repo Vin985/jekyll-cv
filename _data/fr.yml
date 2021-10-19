@@ -155,7 +155,7 @@ profile:
 job_experience:
   title: Exp&eacute;riences professionnelles pertinentes
   jobs:
-    - role: "Présentateur d'ateliers de formation à R"
+    - role: "Pr&eacute;sentateur d'ateliers de formation &agrave; R"
       tags: ["biology", "statistics", "teaching", "R"]
       start:
         month: 6
@@ -164,13 +164,13 @@ job_experience:
         month: 12
         year: 2020
       location:
-        name: Centre de la Science de la Biodiversité du Québec 
+        name: Centre de la Science de la Biodiversit&eacute; du Qu&eacute;bec (CSBQ)
       # location:
       #   name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
       #   city: Rimouski
       #   province: Qu&eacute;bec
       #   country: Canada 
-      details: ["Conception et présentation d’une série d’ateliers de formation à l’outil de statistique R pour des étudiants de 2e et 3e cycle universitaire"]
+      details: ["Conception et pr&eacute;sentation d’une s&eacute;rie d’ateliers de formation &agrave; l’outil de statistique R pour des &eacute;tudiants de 2e et 3e cycle universitaire"]
     - role: "Biologiste"
       tags: ["biology", "statistics", "data analysis", "R"]
       start:
@@ -184,8 +184,8 @@ job_experience:
         city: Qu&eacute;bec
         province: Qu&eacute;bec
         country: Canada 
-      details: ["Analyse de bases de données d’observations d’oiseaux marins",
-                "Développement d’outils et d’applications web avec R et Shiny"]
+      details: ["Analyse de bases de donn&eacute;es d’observations d’oiseaux marins",
+                "D&eacute;veloppement d’outils et d’applications web avec R et Shiny"]
     - role: "Consultant informatique"
       tags: ["IT", "web design", "consulting"]
       start:
@@ -198,11 +198,11 @@ job_experience:
         province: Qu&eacute;bec
         country: Canada 
       details: [
-        "Développement de modules visant à améliorer le confort d'utilisation du site de commande en ligne de l'OSBL Paniers d'ici pour la promotion des produits locaux",
-        "Résolution de problèmes informatiques"
+        "D&eacute;veloppement de modules visant &agrave; am&eacute;liorer le confort d'utilisation du site de commande en ligne de l'OSBL Paniers d'ici pour la promotion des produits locaux",
+        "R&eacute;solution de probl&egrave;mes informatiques"
         ]
     - role: "Auxiliaire d'enseignement"
-      tags: ["biology", "teaching", "statistics", R]
+      tags: ["biology", "teaching", "statistics", "R"]
       start:
         month: 9
         year: 2013
@@ -228,37 +228,124 @@ job_experience:
         city: Rimouski
         province: Qu&eacute;bec
         country: Canada 
-      details: ["Conception et animation d'un atelier sur la biodiversité animale pour des étudiants de secondaire dans le cadre des journées <i>J'suis capable</i>"]
-    - role: "Consultant informatique"
-      tags: ["IT", "web design", "consulting"]
+      details: ["Conception et animation d'un atelier sur la biodiversit&eacute; animale pour des &eacute;tudiants de secondaire dans le cadre des journ&eacute;es <i>J'suis capable</i>"]
+    - role: "Auxiliaire d'enseignement"
+      tags: ["biology", "teaching", "physiology"]
       start:
-        year: 2009
+        month: 9
+        year: 2012
       end:
-        year: 2014
+        month: 12
+        year: 2012
       location:
-        name: "Paniers d'ici"
+        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+      details: ["Enseignement de laboratoires dans le cours de Physiologie Animale I"]
+    - role: "Auxiliaire d'enseignement"
+      tags: ["biology", "teaching", "physiology"]
+      start:
+        month: 1
+        year: 2012
+      end:
+        month: 5
+        year: 2012
+      location:
+        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+      details: ["Enseignement de laboratoires dans le cours de Physiologie Animale II"]
+    - role: "Assistant de recherche"
+      tags: ["biology", "birds", "data analysis", "banding"]
+      start:
+        month: 5
+        year: 2010
+      end:
+        month: 8
+        year: 2011
+      location:
+        name: "Laboratoire d'ornithologie marine - UQAR"
         city: Rimouski
         province: Qu&eacute;bec
         country: Canada 
       details: [
-        "Développement de modules visant à améliorer le confort d'utilisation du site de commande en ligne de l'OSBL Paniers d'ici pour la promotion des produits locaux",
-        "Résolution de problèmes informatiques"
+        "Suivi du succ&egrave;s de reproduction et &eacute;tude de l'impact du d&eacute;versement p&eacute;trolier du Golfe du Mexique de 2010 chez les fous de Bassan de l'&icirc;le Bonaventure, Qu&eacute;bec",
+        "Analyse de donn&eacute;es de temp&eacute;rature provenant de consignateurs internes implant&eacute;s chez des eiders &agrave; duvet"
+        ]
+    - role: "Assistant de recherche"
+      tags: ["biology", "forestery", "data analysis", "ArcGis"]
+      start:
+        month: 5
+        year: 2009
+      end:
+        month: 8
+        year: 2009
+      location:
+        name: "Laboratoire d'&eacute;cologie historique et de dendrochronologie - UQAR"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+      details: [
+        "Recomposition de la for&ecirc;t pr&eacute;industrielle du Qu&eacute;bec &agrave; partir d'archives d'arpentage et num&eacute;risation dans un SIG (ArcGIS 9.3)",
+        "&Eacute;chantillonnage de tronc d'arbres reposant au fond de lacs"
+        ]
+    - role: "Ing&eacute;nieur recherche et d&eacute;veloppement J2EE"
+      tags: ["IT", "web design"]
+      start:
+        month: 1
+        year: 2006
+      end:
+        month: 8
+        year: 2008
+      location:
+        name: "Ippon Technologies"
+        city: Levallois Perret
+        country: France
+      details: [
+        "D&eacute;veloppement et maintenance de portails coop&eacute;ratifs dans des &eacute;quipes pouvant aller jusqu'&agrave; 15 personnes",
+        "Formation et conseil des utilisateurs et clients"
+        ]
+    - role: "Stage en tant que d&eacute;veloppeur J2EE"
+      tags: ["IT", "web design"]
+      start:
+        month: 10
+        year: 2004
+      end:
+        month: 2
+        year: 2005
+      location:
+        name: "TMA Solutions"
+        city: H&ocirc; Chi Minh City
+        country: Vietnam
+      details: [
+        "D&eacute;veloppement d'un nouvel intranet au sein d'une &eacute;quipe poss&eacute;dant une culture et une langue diff&eacute;rente",
         ]
 
-
 publications:
-  title: Publications
+  title: Publications avec arbitrage
   items:
-    - title: Random title of paper. An interesting one.
-      authors: John E. Doe
-      journal: Some conference, 2016
-      date:
-      DOI:
-    - title: Random title of paper. An interesting one.
-      authors: John E. Doe
-      journal: Some conference, 2016
-      date:
-      DOI:
+    - title: "Going further with model verification and deep learning"
+      authors: Christin, S., Hervet, É., & Lecomte, N.
+      journal: Methods in Ecology and Evolution
+      date: 2021
+      issue: 12(1)
+      pages: 130-134
+      DOI: "https://doi.org/10.1111/2041-210X.13494"
+    - title: "Applications for deep learning in ecology"
+      authors: Christin, S., Hervet, É., & Lecomte, N.
+      journal: Methods in Ecology and Evolution
+      date: 2019
+      issue: 10(10)
+      pages: 1633-1644
+      DOI: "https://doi.org/10.1111/2041-210X.13256"
+    - title: "Evaluation of Argos telemetry accuracy in the High-Arctic and implications for the estimation of home-range size"
+      authors: Christin, S., St-Laurent, M.-H. & Berteaux, D.
+      journal: PLOS ONE
+      date: 2015
+      issue: 10(11)
+      DOI: "https://doi.org/10.1371/journal.pone.0141999"
 
 presentations:
   title: Pr&eacute;sentations

@@ -8,7 +8,7 @@
     <div class="experience-item">
         <div class=item-header>
             <div class="role">
-                {{job.role}}
+                {{job.role}} - <span class="location">{{location.name}}</span>
             </div>
             <div class="time">
                 {%- if job.start -%}
@@ -32,7 +32,6 @@
             </div>
         </div>
         <div class="location">
-            {{location.name}}
             {%- if location.city -%}
             {{location.city | prepend: ", "}}
             {%- endif -%}

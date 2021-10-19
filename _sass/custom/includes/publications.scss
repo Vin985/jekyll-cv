@@ -4,15 +4,19 @@
     }
     .publication-items {
         .publication-item {
-            margin-bottom: 20px;
+            margin-bottom: 12px;
             .publication-title {
-                a {
-                    text-decoration: none;
-                    font-weight: bold;
-                    @include body-text; 
-                }
+                @include sub-header;
+                text-decoration: none;
+                font-weight: bold;
             }
             .authors {
+                @include body-text;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .journal {
                 @include body-text; 
             }
             .conference {
