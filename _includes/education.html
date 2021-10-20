@@ -2,7 +2,7 @@
 {%- assign education = data.education -%}
 {% if education %}
 <section class="education">
-    <div class="title">{{education.title}}</div>
+    <h2 class="title">{{education.title}}</h2>
     {% for degree in education.degrees %}
     {% assign location = degree.location %}
     <div class="education-item">

@@ -1,9 +1,16 @@
 .languages {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
     .idiom {
         @include body-text;
+        margin-left: 10px;
+    }
+
+    .idioms {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }

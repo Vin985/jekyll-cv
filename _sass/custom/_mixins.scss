@@ -3,7 +3,8 @@
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    margin-top:20px;
+    // margin-top:25px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row;
     &:before, &:after{
@@ -13,10 +14,12 @@
         margin: auto;
     }
     &:before {
-        margin-right: 10px
+        margin-right: 10px;
+        // flex: 1 4
     }
     &:after {
-        margin-left: 10px
+        margin-left: 10px;
+        // flex: 4 1
     }
 }
 

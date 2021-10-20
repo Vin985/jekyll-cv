@@ -16,8 +16,18 @@ contact:
 languages:
   title: Langues
   idioms:
-    - Fran&ccedil;ais
-    - Anglais
+    - name: Fran&ccedil;ais
+      level: courant
+      code: fr
+    - name: Anglais
+      level: courant
+      code: gb
+    - name: Allemand
+      level: scolaire
+      code: de
+    - name: Japonais
+      level: scolaire
+      code: jp
 
 months_long: [
   "", # because indexings starts at 0 and operations are not allowed while indexing
@@ -156,6 +166,7 @@ job_experience:
   title: Exp&eacute;riences professionnelles pertinentes
   jobs:
     - role: "Pr&eacute;sentateur d'ateliers de formation &agrave; R"
+      id: "R_CSBQ"
       tags: ["biology", "statistics", "teaching", "R"]
       start:
         month: 6
@@ -172,6 +183,7 @@ job_experience:
       #   country: Canada 
       details: ["Conception et pr&eacute;sentation d’une s&eacute;rie d’ateliers de formation &agrave; l’outil de statistique R pour des &eacute;tudiants de 2e et 3e cycle universitaire"]
     - role: "Biologiste"
+      id: "biologiste_EC"
       tags: ["biology", "statistics", "data analysis", "R"]
       start:
         month: 12
@@ -187,6 +199,7 @@ job_experience:
       details: ["Analyse de bases de donn&eacute;es d’observations d’oiseaux marins",
                 "D&eacute;veloppement d’outils et d’applications web avec R et Shiny"]
     - role: "Consultant informatique"
+      id: "paniers"
       tags: ["IT", "web design", "consulting"]
       start:
         year: 2009
@@ -202,6 +215,7 @@ job_experience:
         "R&eacute;solution de probl&egrave;mes informatiques"
         ]
     - role: "Auxiliaire d'enseignement"
+      id: "labo_stats"
       tags: ["biology", "teaching", "statistics", "R"]
       start:
         month: 9
@@ -216,6 +230,7 @@ job_experience:
         country: Canada 
       details: ["Enseignement de laboratoires dans le cours de Biostatistiques I "]
     - role: "Animateur d'ateliers de vulgarisation"
+      id: "atelier_bio"
       tags: ["biology", "teaching", "popularization"]
       start:
         month: 1
@@ -230,6 +245,7 @@ job_experience:
         country: Canada 
       details: ["Conception et animation d'un atelier sur la biodiversit&eacute; animale pour des &eacute;tudiants de secondaire dans le cadre des journ&eacute;es <i>J'suis capable</i>"]
     - role: "Auxiliaire d'enseignement"
+      id: "labo_physio1"
       tags: ["biology", "teaching", "physiology"]
       start:
         month: 9
@@ -244,6 +260,7 @@ job_experience:
         country: Canada 
       details: ["Enseignement de laboratoires dans le cours de Physiologie Animale I"]
     - role: "Auxiliaire d'enseignement"
+      id: "labo_physio2"
       tags: ["biology", "teaching", "physiology"]
       start:
         month: 1
@@ -258,6 +275,7 @@ job_experience:
         country: Canada 
       details: ["Enseignement de laboratoires dans le cours de Physiologie Animale II"]
     - role: "Assistant de recherche"
+      id: "recherche_fous"
       tags: ["biology", "birds", "data analysis", "banding"]
       start:
         month: 5
@@ -275,6 +293,7 @@ job_experience:
         "Analyse de donn&eacute;es de temp&eacute;rature provenant de consignateurs internes implant&eacute;s chez des eiders &agrave; duvet"
         ]
     - role: "Assistant de recherche"
+      id: "recherche_arbres"
       tags: ["biology", "forestery", "data analysis", "ArcGis"]
       start:
         month: 5
@@ -292,6 +311,7 @@ job_experience:
         "&Eacute;chantillonnage de tronc d'arbres reposant au fond de lacs"
         ]
     - role: "Ing&eacute;nieur recherche et d&eacute;veloppement J2EE"
+      id: "Ippon"
       tags: ["IT", "web design"]
       start:
         month: 1
@@ -308,6 +328,7 @@ job_experience:
         "Formation et conseil des utilisateurs et clients"
         ]
     - role: "Stage en tant que d&eacute;veloppeur J2EE"
+      id: "Vietnam"
       tags: ["IT", "web design"]
       start:
         month: 10
@@ -324,17 +345,17 @@ job_experience:
         ]
 
 publications:
-  title: Publications avec arbitrage
+  title: Publications
   items:
     - title: "Going further with model verification and deep learning"
-      authors: Christin, S., Hervet, É., & Lecomte, N.
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
       journal: Methods in Ecology and Evolution
       date: 2021
       issue: 12(1)
       pages: 130-134
       DOI: "https://doi.org/10.1111/2041-210X.13494"
     - title: "Applications for deep learning in ecology"
-      authors: Christin, S., Hervet, É., & Lecomte, N.
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
       journal: Methods in Ecology and Evolution
       date: 2019
       issue: 10(10)
@@ -379,3 +400,17 @@ volunteering:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+references:
+  title: "R&eacute;f&eacute;rences"
+  persons:
+    - name: Fran&ccedil;ois Bolduc
+      job: "Chef, Unit&eacute; des milieux marins et aquatiques r&eacute;gion du Qu&eacute;bec"
+      location: Environnement et Changement climatique Canada
+      email: francois.bolduc@canada.ca
+      phone: (418) 640-2910
+    - name: Nicolas Lecomte
+      job: Professeur Agr&eacute;g&eacute;
+      location: Universit&eacute; de Moncton
+      email: nicolas.lecomte@umoncton.ca
+      phone: (506) 858-4291

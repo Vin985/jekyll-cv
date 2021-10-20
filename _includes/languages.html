@@ -1,9 +1,16 @@
 {% assign languages = site.data[site.lang].languages %}
 {% if languages %}
 <section class="languages">
-    <div class="title">{{languages.title}}</div>
-    {% for idiom in languages.idioms %}
-    <div class="idiom">{{idiom}}</div>
-    {% endfor %}
+    <h2 class="title">{{languages.title}}</h2>
+    <div class="idioms">
+        {% for idiom in languages.idioms %}
+        <div>
+            <span class="flag-icon flag-icon-{{idiom.code}}"></span>
+            <span class="idiom">
+                {{idiom.name}} {{idiom.level | prepend: "(" | append: ")"}}
+            </span>
+        </div>
+        {% endfor %}
+    </div>
 </section>
 {% endif %}

@@ -2,8 +2,14 @@
 {% assign experience = data.job_experience %}
 {% if experience %}
 <section class="experience">
-    <h2 class="title">{{experience.title}}</h2>
+    <div>
+        <h2 class="title">{{experience.title}}</h2>
+        <div></div>
+    </div>
     {% for job in experience.jobs %}
+    {% if site.exclude_jobs contains job.id %}
+    {% continue %}
+    {%endif%}
     {% assign location = job.location %}
     <div class="experience-item">
         <div class=item-header>
@@ -33,7 +39,7 @@
         </div>
         <div class="location">
             {%- if location.city -%}
-            {{location.city | prepend: ", "}}
+            {{location.city}}
             {%- endif -%}
             {%- if location.province -%}
             {{location.province | prepend: ", "}}
