@@ -1,4 +1,4 @@
-{% assign contact = site.data.data.contact %}
+{% assign contact = site.data[site.lang].contact %}
 {% if contact %}
 <section class="contact">
     {% if contact.email %}
@@ -51,6 +51,15 @@
         <i data-feather="gitlab"></i>
         <a href="https://gitlab.com/{{contact.gitlab}}">
             {{contact.gitlab}}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if contact.website %}
+    <div class="contact-item">
+        <i data-feather="globe"></i>
+        <a href="{{contact.website}}">
+            {{contact.website}}
         </a>
     </div>
     {% endif %}

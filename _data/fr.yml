@@ -11,7 +11,8 @@ contact:
   # linkedin: johndoe
   phone: (450) 880-0256
   gitlab: 
-  twitter: 
+  twitter:
+  website: https://vin985.github.io/my_resume/
 
 languages:
   title: Langues
@@ -78,7 +79,7 @@ education:
         city: Moncton
         province: Nouveau-Brunswick
         country: Canada 
-    - degree: "Ma&icirc;trise en gestion de la faune et de ses habitats"
+    - degree: 'Ma&icirc;trise en gestion de la faune et de ses habitats, mention "Excellent"'
       title: "&Eacute;valuation empirique de la pr&eacute;cision du suivi t&eacute;l&eacute;m&eacute;trique Argos dans le Haut-Arctique et implications pour l'estimation de domaines vitaux"
       start: 
         year: 2012
@@ -103,7 +104,7 @@ education:
         city: Rimouski
         province: Qu&eacute;bec
         country: Canada
-    - degree: "Baccalaur&eacute;at en biologie concentration &eacute;cologie - Mention d'excellence"
+    - degree: "Baccalaur&eacute;at en biologie concentration &eacute;cologie avec mention d'excellence"
       start: 
         year: 2008
         month: 9
@@ -137,7 +138,7 @@ education:
         name: Lyc&eacute;e St Louis
         city: Paris
         country: France
-    - degree: "Baccalaur&eacute;at scientifique - mention Bien"
+    - degree: 'Baccalaur&eacute;at scientifique, mention "Bien"'
       end:
         year: 2003
       location:
@@ -150,12 +151,12 @@ education:
 profile:
   title: Comp&eacute;tences
   items: [
-    "Double dipl&ocirc;me en Biologie et en Informatique",
-    "R&eacute;diger et pr&eacute;senter des rapports scientifiques et vulgaris&eacute;s",
-    "Mettre en place et utiliser des protocoles de collectes de donn&eacute;es et d'&eacute;chantillons",
     "Compiler, analyser et interpr&eacute;ter des donn&eacute;es scientifiques",
+    "R&eacute;diger et pr&eacute;senter des rapports scientifiques et vulgaris&eacute;s",
+    "Double dipl&ocirc;me en Biologie et en Informatique",
+    "Bilingue fran&ccedil;ais/anglais",
+    "Mettre en place et utiliser des protocoles de collectes de donn&eacute;es et d'&eacute;chantillons",
     "Capturer, manipuler et baguer des oiseaux marins (fous de bassan et eiders &agrave; duvet)",
-    "D&eacute;ployer des consignateurs de donn&eacute;es externes et des g&eacute;olocateurs sur des oiseaux",
     "Bonnes capacit&eacute;s d'adaptation, de planification et apprentissage rapide",
     "D&eacute;velopper des logiciels dans divers langages de programmation (R, Python, Java, PHP, HTML, C, C++, HTML, Perl, Caml)",
   ]
