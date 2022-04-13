@@ -178,7 +178,7 @@ job_experience:
       location:
         name: "Service Canadien de la Faune"
         city: Gatineau
-        province: Gatineau
+        province: Qu&eacute;bec
         country: Canada 
       details: ["Cr&eacute;ation d'un package R pour estimer l'abondance de populations de sauvagine a partir de donn&eacute;es de baguage"]
     - role: "Pr&eacute;sentateur d'ateliers de formation &agrave; R"
