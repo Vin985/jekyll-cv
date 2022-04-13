@@ -166,6 +166,21 @@ profile:
 job_experience:
   title: Exp&eacute;riences professionnelles pertinentes
   jobs:
+    - role: "Biologiste"
+      id: "biologiste_EC2"
+      tags: ["biology", "statistics", "package development", "data analysis", "R"]
+      start:
+        month: 2
+        year: 2022
+      end:
+        month: 3
+        year: 2022
+      location:
+        name: "Service Canadien de la Faune"
+        city: Gatineau
+        province: Gatineau
+        country: Canada 
+      details: ["Cr&eacute;ation d'un package R pour estimer l'abondance de populations de sauvagine a partir de donn&eacute;es de baguage"]
     - role: "Pr&eacute;sentateur d'ateliers de formation &agrave; R"
       id: "R_CSBQ"
       tags: ["biology", "statistics", "teaching", "R"]
@@ -174,7 +189,7 @@ job_experience:
         year: 2014
       end:
         month: 12
-        year: 2020
+        year: 2021
       location:
         name: Centre de la Science de la Biodiversit&eacute; du Qu&eacute;bec (CSBQ)
       # location:
