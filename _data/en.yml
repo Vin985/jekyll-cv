@@ -150,12 +150,12 @@ education:
 profile:
   title: Skills
   items: [
-    "Manage, analyze and interpret scientific data",
+    "Compile, analyze and interpret large scientific datasets",
     "Write and present scientific reports",
     "Double diplomas in Biology (PhD) and Computer Science (Engineering degree)",
     "Bilingual French/English",
     "Create and set up data collection protocols",
-    "Programming skills in various programming languages (R, Python, Java, PHP, HTML, C, C++, HTML, Perl)",
+    "Develop in various programming languages (R, Python, Java, PHP, HTML, C, C++, HTML, Perl)",
     "Able to quickly adapt and learn",
   ]
     
@@ -178,7 +178,7 @@ job_experience:
       city: Moncton
       province: New Brunswick
       country: Canada 
-    details: ["Teaching and correction of assignments in the Biometry course"]
+    details: ["Teaching and correction of assignments in the 'Biometry' course"]
   - role: "Biologist"
     id: "biologiste_EC3"
     tags: ["biology", "statistics", "Rmarkdown", "report creation", "R"]
@@ -186,14 +186,26 @@ job_experience:
       month: 1
       year: 2023
     end:
-      month: 
-      year: Present
+      month: 3
+      year: 2023
     location:
       name: "Canadian Wildlife Service"
       city: Gatineau
       province: Qu&eacute;bec
       country: Canada 
     details: ["Translation in French of an existing R Markdown project aiming at generating a report on the population status of migratory game birds"]
+  - role: "R Workshop presenter"
+    id: "R_CSBQ"
+    tags: ["biology", "statistics", "teaching", "R"]
+    start:
+      month: 6
+      year: 2014
+    end:
+      month: 12
+      year: 2022
+    location:
+      name: Qu&eacute;bec Center for Biodiversity Science
+    details: ["Creation and presentation of a series of R Workshops"]
   - role: "Biologist"
     id: "biologiste_EC2"
     tags: ["biology", "statistics", "package development", "data analysis", "R"]
@@ -209,23 +221,6 @@ job_experience:
       province: Qu&eacute;bec
       country: Canada 
     details: ["Creation of an R package to calculate Lincoln population estimates of game birds from banding data"]
-  - role: "R Workshop presenter"
-    id: "R_CSBQ"
-    tags: ["biology", "statistics", "teaching", "R"]
-    start:
-      month: 6
-      year: 2014
-    end:
-      month: 12
-      year: 2022
-    location:
-      name: Qu&eacute;bec Center for Biodiversity Science
-    # location:
-    #   name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
-    #   city: Rimouski
-    #   province: Qu&eacute;bec
-    #   country: Canada 
-    details: ["Creation and presentation of a series of R Workshops"]
   - role: "Biologist"
     id: "biologiste_EC"
     tags: ["biology", "statistics", "data analysis", "R"]
@@ -271,7 +266,7 @@ job_experience:
       city: Rimouski
       province: Qu&eacute;bec
       country: Canada 
-    details: ["Teaching laboratories in the Biostatistics I course"]
+    details: ["Teaching laboratories in the 'Biostatistics I' course"]
   - role: "Presenter of workshops aiming at popularizing science"
     id: "atelier_bio"
     tags: ["biology", "teaching", "popularization"]
@@ -301,7 +296,7 @@ job_experience:
       city: Rimouski
       province: Qu&eacute;bec
       country: Canada 
-    details: ["Teaching a laboratory in the Animal Physiology I course"]
+    details: ["Teaching a laboratory in the 'Animal Physiology I' course"]
   - role: "Teaching assistant"
     id: "labo_physio2"
     tags: ["biology", "teaching", "physiology"]
@@ -316,7 +311,7 @@ job_experience:
       city: Rimouski
       province: Qu&eacute;bec
       country: Canada 
-    details: ["Teaching a laboratory in the Animal Physiology II course"]
+    details: ["Teaching a laboratory in the 'Animal Physiology II' course"]
   - role: "Research assistant"
     id: "recherche_fous"
     tags: ["biology", "birds", "data analysis", "banding"]
@@ -389,6 +384,11 @@ job_experience:
 publications:
   title: Publications
   items:
+    - title: "ArcticBirdSounds: An open-access, multiyear, and detailed annotated dataset of bird songs and calls"
+      authors: Christin, S., Chicoine, C., O'Neill Sanger, T., Guigueno, M. F., Hansen, J., Lanctot, R. B., MacNearney, D., Rausch, J., Saalfeld, S. T., Schmidt, N. M., Smith, P. A., Woodard, P. F., Hervet, &Eacute;., & Lecomte, N.
+      journal: Ecology
+      date: 2023
+      DOI: "https://doi.org/10.1002/ecy.4047"
     - title: "Introducing Mouffet, a unified framework to make model creation easier and more reproducible"
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
       journal: BioRxiv (pre-print)
@@ -449,33 +449,46 @@ presentations:
         province: Qu&eacute;bec
       conference:
 
-scholarships:
-  - title: "Bourse d’&eacute;tudes sup&eacute;rieures du Canada Alexander-Graham-Bell - doctorat"
-    type: scholarship
-    value: 35000
-    total_value: 70000
-    duration: 2 ans
-    organisme: CRSNG
-    date: 2019
-  - title: "Bourse d’&eacute;tudes sup&eacute;rieures de l’Universit&eacute; de Moncton - campus de Moncton"
-    type: scholarship
-    value: 3000
-    total_value: 6000
-    duration: 2 ans
-    organisme: Universit&eacute; de Moncton
-    date: 2019
+awards:
+  title: "Scholarships"
+  items:
+    - name: "Canada Graduate Scholarships - Doctoral program (CGS D)"
+      type: scholarship
+      value: 35000
+      total_value: 70000
+      duration: 2 ans
+      provider: "Natural Sciences and Engineering Research Council of Canada"
+      date: 2019
+    - name: "Canadian Heritage Scholarship - 3rd cycle"
+      type: scholarship
+      provider: "Canadian Heritage"
+      date: 2017
+    - name: "Graduate Studies Scholarship of New Brunswick STGM et innovation sociale"
+      type: scholarship
+      provider: "Government of New Brunswick & Université de Moncton"
+      date: 2017
+    - name: "Interdisciplinary Research Scholarship - Master program"
+      type: scholarship
+      provider: EnviroNord
+      date: 2012
+
 
 
 references:
-  title: "R&eacute;f&eacute;rences"
+  title: "References"
   persons:
+    - name: Amelia Cox
+      job: Quantitative Biologist
+      location: Environment and Climate Change Canada
+      email: amelia.cox@ec.gc.ca
+      phone: (819) 938-5613
     - name: Fran&ccedil;ois Bolduc
-      job: "Chef, Unit&eacute; des milieux marins et aquatiques r&eacute;gion du Qu&eacute;bec"
-      location: Environnement et Changement climatique Canada
+      job: "Head, Marine and Aquatic Habitats Unit Québec Region"
+      location: Environment and Climate Change Canada
       email: francois.bolduc@canada.ca
       phone: (418) 640-2910
     - name: Nicolas Lecomte
-      job: Professeur Agr&eacute;g&eacute;
+      job: Associate professor
       location: Universit&eacute; de Moncton
       email: nicolas.lecomte@umoncton.ca
       phone: (506) 858-4291

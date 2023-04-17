@@ -1,0 +1,18 @@
+{%- assign data = site.data[site.lang]-%}
+{% assign awards = data.awards %}
+{% if awards %}
+<section class="awards">
+    <h2 class="title">{{awards.title}}</h2>
+    <div class="award-items">
+        {% for award in awards.items %}
+        {% if site.exclude_awards contains award.type %}
+        {% continue %}
+        {%endif%}
+        <div class="award-item">
+            <div class="award-name">{{award.name}} - <span class="award-info">{{award.date}} - {{award.provider}}</span>
+            </div>
+        </div>
+        {%endfor%}
+    </div>
+</section>
+{% endif %}

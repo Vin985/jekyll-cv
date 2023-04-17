@@ -1,0 +1,22 @@
+.awards {
+    .title {
+        @include header;
+    }
+
+    .award-items {
+        .award-item {
+            margin-bottom: 12px;
+
+            .award-name {
+                @include sub-header;
+                text-decoration: none;
+                // font-weight: bold;
+                // font-size: 16px;
+                .award-info {
+                    @include body-text;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
