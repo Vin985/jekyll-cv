@@ -2,6 +2,8 @@ name: Sylvain Christin
 support_dark_mode: false
 fork: false
 
+objective: Biologist
+
 # Sidebar
 contact:
   email: sylvain.christin@gmail.com
@@ -9,100 +11,471 @@ contact:
   # linkedin: johndoe
   phone: (450) 880-0256
   gitlab: 
-  twitter: 
+  twitter:
+  website: https://vin985.github.io/my_resume/
 
 languages:
-  - idiom: French
-  - idiom: English
+  title: Languages
+  idioms:
+    - name: French
+      level: native
+      code: fr
+    - name: English
+      level: fluent
+      code: gb
+    - name: German
+      level: novice
+      code: de
+    - name: Japanese
+      level: novice
+      code: jp
 
+months_long: [
+  "", # because indexings starts at 0 and operations are not allowed while indexing
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+  ]
 
+months_short: [
+  "", # because indexings starts at 0 and operations are not allowed while indexing
+  "Jan.",
+  "Feb.",
+  "Mar",
+  "Apr.",
+  "May",
+  "Jun.",
+  "Jul.",
+  "Aug.",
+  "Sept.",
+  "Oct.",
+  "Nov.",
+  "Dec.",
+  ]
+
+# Education
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
-
-skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+  title: Formation
+  degrees:
+    - degree: PhD in Life Sciences
+      title: "Influence of climatic perturbations on the breeding phenology of Arctic bird: the bioacoustic way"
+      start: 
+        year: 2017
+        month: 9
+      end:
+        year: Present
+        month: 
+      location:
+        name: Universit&eacute; de Moncton
+        city: Moncton
+        province: Nouveau-Brunswick
+        country: Canada 
+    - degree: 'Masters in Wildlife and its Habitats Management, "Excellent" mention'
+      title: "Evaluation of argos telemetry accuracy in the high-arctic and implications for the estimation of home-range size"
+      start: 
+        year: 2012
+        month: 5
+      end:
+        year: 2014
+        month: 6
+      location:
+        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada 
+    - degree: "Specialized Graduate Diploma in Wildlife and its Habitats Management"
+      start: 
+        year: 2011
+        month: 9
+      end:
+        year: 2013
+        month: 4
+      location:
+        name: "Universit&eacute; du Qu&eacute;bec &agrave; Rimouski"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada
+    - degree: "Bachelor of Sciences in Biology, with major in Ecology, mention of excellence"
+      start: 
+        year: 2008
+        month: 9
+      end:
+        year: 2011
+        month: 4
+      location:
+        name: "Universit&eacute; du Qu&eacute;bec &agrave; Rimouski"
+        city: Rimouski
+        province: Qu&eacute;bec
+        country: Canada
+    - degree: "Engineering Degree in Computer Science"
+      start: 
+        year: 2003
+        month: 9
+      end:
+        year: 2006
+        month: 4
+      location:
+        name: "&Eacute;cole Pour l'Informatique et les Techniques Avanc&eacute;es (EPITA)"
+        city: Kremlin-Bic&ecirc;tre
+        country: France
+    - degree: "University level preparation for competitive entrance into Grandes Écoles"
+      start: 
+        year: 2001
+        month: 9
+      end:
+        year: 2003
+        month: 4
+      location:
+        name: Lyc&eacute;e St Louis
+        city: Paris
+        country: France
+    - degree: 'High school diploma in Sciences, "Good" mention'
+      end:
+        year: 2003
+      location:
+        name: Lyc&eacute;e Van Gogh
+        city: Ermont
+        country: France
 
 # Profile
-profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+profile:
+  title: Skills
+  items: [
+    "Manage, analyze and interpret scientific data",
+    "Write and present scientific reports",
+    "Double diplomas in Biology (PhD) and Computer Science (Engineering degree)",
+    "Bilingual French/English",
+    "Create and set up data collection protocols",
+    "Programming skills in various programming languages (R, Python, Java, PHP, HTML, C, C++, HTML, Perl)",
+    "Able to quickly adapt and learn",
+  ]
+    
 
 # Experience
-experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+job_experience:
+  title: Relevant professional experiences
+  jobs:
+  - role: "Teaching assistant"
+    id: "TA_biometry"
+    tags: ["teaching", "biology", "statistics"]
+    start:
+      month: 1
+      year: 2023
+    end:
+      month: 
+      year: Present
+    location:
+      name: "Universit&eacute; de Moncton"
+      city: Moncton
+      province: New Brunswick
+      country: Canada 
+    details: ["Teaching and correction of assignments in the Biometry course"]
+  - role: "Biologist"
+    id: "biologiste_EC3"
+    tags: ["biology", "statistics", "Rmarkdown", "report creation", "R"]
+    start:
+      month: 1
+      year: 2023
+    end:
+      month: 
+      year: Present
+    location:
+      name: "Canadian Wildlife Service"
+      city: Gatineau
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Translation in French of an existing R Markdown project aiming at generating a report on the population status of migratory game birds"]
+  - role: "Biologist"
+    id: "biologiste_EC2"
+    tags: ["biology", "statistics", "package development", "data analysis", "R"]
+    start:
+      month: 2
+      year: 2022
+    end:
+      month: 3
+      year: 2022
+    location:
+      name: "Canadian Wildlife Service"
+      city: Gatineau
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Creation of an R package to calculate Lincoln population estimates of game birds from banding data"]
+  - role: "R Workshop presenter"
+    id: "R_CSBQ"
+    tags: ["biology", "statistics", "teaching", "R"]
+    start:
+      month: 6
+      year: 2014
+    end:
+      month: 12
+      year: 2022
+    location:
+      name: Qu&eacute;bec Center for Biodiversity Science
+    # location:
+    #   name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+    #   city: Rimouski
+    #   province: Qu&eacute;bec
+    #   country: Canada 
+    details: ["Creation and presentation of a series of R Workshops"]
+  - role: "Biologist"
+    id: "biologiste_EC"
+    tags: ["biology", "statistics", "data analysis", "R"]
+    start:
+      month: 12
+      year: 2016
+    end:
+      month: 3
+      year: 2018
+    location:
+      name: "Canadian Wildlife Service"
+      city: Qu&eacute;bec
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Analysis and cleaning of a database of seabirds observations",
+              "Creation of tools and web applications using R and Shiny"]
+  - role: "IT Consultant"
+    id: "paniers"
+    tags: ["IT", "web design", "consulting"]
+    start:
+      year: 2009
+    end:
+      year: 2014
+    location:
+      name: "Paniers d'ici"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: [
+      "Improvement of an online shopping website aiming at promoting local products",
+      ]
+  - role: "Teaching assistant"
+    id: "labo_stats"
+    tags: ["biology", "teaching", "statistics", "R"]
+    start:
+      month: 9
+      year: 2013
+    end:
+      month: 12
+      year: 2013
+    location:
+      name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Teaching laboratories in the Biostatistics I course"]
+  - role: "Presenter of workshops aiming at popularizing science"
+    id: "atelier_bio"
+    tags: ["biology", "teaching", "popularization"]
+    start:
+      month: 1
+      year: 2012
+    end:
+      month: 04
+      year: 2013
+    location:
+      name: "Carrefour des sciences"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Creation and animation of a workshop on biodiversity for high school students"]
+  - role: "Teaching assistant"
+    id: "labo_physio1"
+    tags: ["biology", "teaching", "physiology"]
+    start:
+      month: 9
+      year: 2012
+    end:
+      month: 12
+      year: 2012
+    location:
+      name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Teaching a laboratory in the Animal Physiology I course"]
+  - role: "Teaching assistant"
+    id: "labo_physio2"
+    tags: ["biology", "teaching", "physiology"]
+    start:
+      month: 1
+      year: 2012
+    end:
+      month: 5
+      year: 2012
+    location:
+      name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Teaching a laboratory in the Animal Physiology II course"]
+  - role: "Research assistant"
+    id: "recherche_fous"
+    tags: ["biology", "birds", "data analysis", "banding"]
+    start:
+      month: 5
+      year: 2010
+    end:
+      month: 8
+      year: 2011
+    location:
+      name: "Laboratory of Marine Ornithology - UQAR"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: [
+      "Monitoring the breeding success in the Northern Gannet colony of Bonaventure Island - Qu&eacute;bec",
+      "Data analysis of internal temperature recordings of Common Eiders."
+      ]
+  - role: "Research assistant"
+    id: "recherche_arbres"
+    tags: ["biology", "forestery", "data analysis", "ArcGis"]
+    start:
+      month: 5
+      year: 2009
+    end:
+      month: 8
+      year: 2009
+    location:
+      name: "Tree ring and historical ecology lab - UQAR"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: [
+      "Recomposition of the pre-industrial forest in Qu&eacute;bec using land surveys archives and GIS softwares",
+      ]
+  - role: "Research and development Engineer J2EE"
+    id: "Ippon"
+    tags: ["IT", "web design"]
+    start:
+      month: 1
+      year: 2006
+    end:
+      month: 8
+      year: 2008
+    location:
+      name: "Ippon Technologies"
+      city: Levallois Perret
+      country: France
+    details: [
+      "Development of intranet portals in teams up to 15 people",
+      "Formation and consulting for users and clients"
+      ]
+  - role: "Internship as a J2EE software developer"
+    id: "Vietnam"
+    tags: ["IT", "web design"]
+    start:
+      month: 10
+      year: 2004
+    end:
+      month: 2
+      year: 2005
+    location:
+      name: "TMA Solutions"
+      city: H&ocirc; Chi Minh City
+      country: Vietnam
+    details: [
+      "Development of a new intranet in a team with a different culture and language",
+      ]
 
 publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
+  title: Publications
+  items:
+    - title: "Introducing Mouffet, a unified framework to make model creation easier and more reproducible"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      journal: BioRxiv (pre-print)
+      date: 2022
+      DOI: "https://doi.org/10.1101/2022.07.06.498965"
+    - title: "Going further with model verification and deep learning"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      journal: Methods in Ecology and Evolution
+      date: 2021
+      issue: 12(1)
+      pages: 130-134
+      DOI: "https://doi.org/10.1111/2041-210X.13494"
+    - title: "Applications for deep learning in ecology"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      journal: Methods in Ecology and Evolution
+      date: 2019
+      issue: 10(10)
+      pages: 1633-1644
+      DOI: "https://doi.org/10.1111/2041-210X.13256"
+    - title: "Evaluation of Argos telemetry accuracy in the High-Arctic and implications for the estimation of home-range size"
+      authors: Christin, S., St-Laurent, M.-H. & Berteaux, D.
+      journal: PLOS ONE
+      date: 2015
+      issue: 10(11)
+      DOI: "https://doi.org/10.1371/journal.pone.0141999"
 
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+presentations:
+  title: Presentations
+  oral.title: Oral presentations
+  posters.title: Posters
+  oral:
+    - title: Studying the phenology of circumpolar birds with acoustic monitoring
+      type: poster
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 12/2022
+      meeting: ArcticNet Annual Scientific Meeting
+      location:
+        city: Toronto
+        country: Canada
+        province: Ontario
+    - title: Studying bird phenology with passive acoustic monitoring and deep learning
+      type: oral
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 10/2022
+      meeting: 59th Annual meeting of the Atlantic Society of Fish and Wildlife Biologists 
+      location:
+        city: Fredericton
+        country: Canada
+        province: New Brunswick
+    - title: Studying bird phenology with passive acoustic monitoring and deep learning
+      type: oral
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 08/2022
+      meeting: Annual meeting of the Ecological Society of America - Canadian Society for Ecology and Evolution
+      location:
+        city: Montr&eacute;al
+        country: Canada
+        province: Qu&eacute;bec
+      conference:
 
-projects:
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+scholarships:
+  - title: "Bourse d’&eacute;tudes sup&eacute;rieures du Canada Alexander-Graham-Bell - doctorat"
+    type: scholarship
+    value: 35000
+    total_value: 70000
+    duration: 2 ans
+    organisme: CRSNG
+    date: 2019
+  - title: "Bourse d’&eacute;tudes sup&eacute;rieures de l’Universit&eacute; de Moncton - campus de Moncton"
+    type: scholarship
+    value: 3000
+    total_value: 6000
+    duration: 2 ans
+    organisme: Universit&eacute; de Moncton
+    date: 2019
 
-  - title: Cool Project 
-    link: #
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+references:
+  title: "R&eacute;f&eacute;rences"
+  persons:
+    - name: Fran&ccedil;ois Bolduc
+      job: "Chef, Unit&eacute; des milieux marins et aquatiques r&eacute;gion du Qu&eacute;bec"
+      location: Environnement et Changement climatique Canada
+      email: francois.bolduc@canada.ca
+      phone: (418) 640-2910
+    - name: Nicolas Lecomte
+      job: Professeur Agr&eacute;g&eacute;
+      location: Universit&eacute; de Moncton
+      email: nicolas.lecomte@umoncton.ca
+      phone: (506) 858-4291

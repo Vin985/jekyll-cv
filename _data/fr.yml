@@ -189,7 +189,7 @@ job_experience:
         year: 2014
       end:
         month: 12
-        year: 2021
+        year: 2022
       location:
         name: Centre de la Science de la Biodiversit&eacute; du Qu&eacute;bec (CSBQ)
       # location:
@@ -363,6 +363,11 @@ job_experience:
 publications:
   title: Publications
   items:
+    - title: "Introducing Mouffet, a unified framework to make model creation easier and more reproducible"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      journal: BioRxiv (pre-print)
+      date: 2022
+      DOI: "https://doi.org/10.1101/2022.07.06.498965"
     - title: "Going further with model verification and deep learning"
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
       journal: Methods in Ecology and Evolution
@@ -389,23 +394,47 @@ presentations:
   oral.title: Pr&eacute;sentations orales
   posters.title: Pr&eacute;sentations par affiche
   oral:
-    - title: Random title of paper. An interesting one.
-      authors: John E. Doe
-      journal: Some conference, 2016
-      date:
+    - title: Studying the phenology of circumpolar birds with acoustic monitoring
+      type: poster
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 12/2022
+      location:
+        city: Toronto
+        country: Canada
+        province: Ontario
+    - title: Studying bird phenology with passive acoustic monitoring and deep learning
+      type: oral
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 10/2022
+      location:
+        city: Fredericton
+        country: Canada
+        province: Nouveau Brunswick
+    - title: Studying bird phenology with passive acoustic monitoring and deep learning
+      type: oral
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 08/2022
+      location:
+        city: Montr&eacute;al
+        country: Canada
+        province: Qu&eacute;bec
       conference:
-    - title: Random title of paper. An interesting one.
-      authors: John E. Doe
-      journal: Some conference, 2016
-      date:
-      conference:
-  posters:
-    - title: Random title of paper. An interesting one.
-      authors: John E. Doe
-      journal: Some conference, 2016
-      date:
-      DOI:
 
+scholarships:
+  - title: "Bourse d’&eacute;tudes sup&eacute;rieures du Canada Alexander-Graham-Bell - doctorat"
+    type: scholarship
+    value: 35000
+    total_value: 70000
+    duration: 2 ans
+    organisme: CRSNG
+    date: 2019
+  - title: "Bourse d’&eacute;tudes sup&eacute;rieures de l’Universit&eacute; de Moncton - campus de Moncton"
+    type: scholarship
+    value: 3000
+    total_value: 6000
+    duration: 2 ans
+    organisme: Universit&eacute; de Moncton
+    date: 2019
 
 # Volunteering
 volunteering:
