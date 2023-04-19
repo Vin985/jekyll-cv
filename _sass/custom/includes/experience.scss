@@ -3,7 +3,7 @@
         @include header;
     }
     .experience-item {
-        margin-bottom: 12px;
+        margin-bottom: 15px;
 
         > * {
             margin-bottom: 3px;
@@ -27,13 +27,19 @@
             font-weight: bold;
         }
 
+        .employer {
+            @include body-text;
+            font-weight: bold;
+        }
+
         .location {
             @include body-text;
+            font-weight: 400
         }
         .details {
             @include body-text;
             ul {
-                margin-top: 5px;
+                margin-top: 7px;
                 margin-bottom: 0;
                 // padding-left: 15px;
             }

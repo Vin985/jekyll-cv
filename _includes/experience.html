@@ -13,8 +13,27 @@
     {% assign location = job.location %}
     <div class="experience-item">
         <div class=item-header>
-            <div class="role">
-                {{job.role}} - <span class="location">{{location.name}}</span>
+            <div>
+                <span class="role">{{job.role}}</span>
+                {%- if location.name -%}
+                &nbsp;-&nbsp;<span class="employer">{{location.name}}</span>
+                {%- endif -%}
+                {% capture place %}
+                {%- if location.city -%}
+                {{location.city}}
+                {%- endif -%}
+                {%- if location.province -%}
+                {{location.province | prepend: ", "}}
+                {%- endif -%}
+                {%- if location.country -%}
+                {{location.country | prepend: ", "}}
+                {%- endif -%}
+                {% endcapture %}
+                {% if place != "" %}
+                &nbsp;-&nbsp;<span class="location">
+                    {{place}}
+                </span>
+                {% endif %}
             </div>
             <div class="time">
                 {%- if job.start -%}
@@ -37,6 +56,9 @@
                 {{job.end.year}}
             </div>
         </div>
+        <!--
+
+       
         <div class="location">
             {%- if location.city -%}
             {{location.city}}
@@ -48,6 +70,7 @@
             {{location.country | prepend: ", "}}
             {%- endif -%}
         </div>
+         -->
         <div class="details">
             <ul>
                 {% for detail in job.details %}

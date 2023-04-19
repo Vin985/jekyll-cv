@@ -3,16 +3,33 @@
 {% if awards %}
 <section class="awards">
     <h2 class="title">{{awards.title}}</h2>
+    {% unless site.exclude_awards contains "scholarships" %}
+    <h3 class="subtitle">{{data.titles.scholarships}}</h3>
     <div class="award-items">
         {% for award in awards.items %}
-        {% if site.exclude_awards contains award.type %}
-        {% continue %}
-        {%endif%}
+        {% if award.type == "scholarship" %}
         <div class="award-item">
-            <div class="award-name">{{award.name}} - <span class="award-info">{{award.date}} - {{award.provider}}</span>
+            <div class="award-name">{{award.name}} - <span class="award-info">{{award.date}} -
+                    {{award.provider}}</span>
             </div>
         </div>
+        {%endif%}
         {%endfor%}
     </div>
+    {%endunless%}
+    {% unless site.exclude_awards contains "awards" %}
+    <h3 class="subtitle">{{data.titles.awards}}</h3>
+    <div class="award-items">
+        {% for award in awards.items %}
+        {% if award.type == "award" %}
+        <div class="award-item">
+            <div class="award-name">{{award.name}} - <span class="award-info">{{award.date}} -
+                    {{award.provider}}</span>
+            </div>
+        </div>
+        {%endif%}
+        {%endfor%}
+    </div>
+    {%endunless%}
 </section>
 {% endif %}

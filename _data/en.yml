@@ -62,6 +62,10 @@ months_short: [
   "Dec.",
   ]
 
+titles:
+  scholarships: Scholarships
+  awards: Awards
+
 # Education
 education:
   title: Formation
@@ -150,11 +154,12 @@ education:
 profile:
   title: Skills
   items: [
-    "Compile, analyze and interpret large scientific datasets",
-    "Write and present scientific reports",
     "Double diplomas in Biology (PhD) and Computer Science (Engineering degree)",
+    "Manage, analyze and interpret large scientific datasets",
+    "Create and use artificial intelligence models based on deep learning",
     "Bilingual French/English",
-    "Create and set up data collection protocols",
+    "Write and present scientific reports",
+    # "Create and set up data collection protocols",
     "Develop in various programming languages (R, Python, Java, PHP, HTML, C, C++, HTML, Perl)",
     "Able to quickly adapt and learn",
   ]
@@ -201,10 +206,10 @@ job_experience:
       month: 6
       year: 2014
     end:
-      month: 12
-      year: 2022
+      month: 04
+      year: 2023
     location:
-      name: Qu&eacute;bec Center for Biodiversity Science
+      name: Qu&eacute;bec Center for Biodiversity Science / Universit&eacute; de Moncton
     details: ["Creation and presentation of a series of R Workshops"]
   - role: "Biologist"
     id: "biologiste_EC2"
@@ -450,7 +455,7 @@ presentations:
       conference:
 
 awards:
-  title: "Scholarships"
+  title: "Scholarships and Awards"
   items:
     - name: "Canada Graduate Scholarships - Doctoral program (CGS D)"
       type: scholarship
@@ -459,19 +464,83 @@ awards:
       duration: 2 ans
       provider: "Natural Sciences and Engineering Research Council of Canada"
       date: 2019
+    - name: "New-Brunswick graduate studies scholarship"
+      value: 7000
+      duration: 2 ans
+      total_value: 14000
+      type: scholarship
+      provider: "Government of New Brunswick"
+      date: 2019
+    - name: "Graduate studies scholarship of the Universit&eacute; de Moncton - campus of Moncton"
+      value: 3000
+      duration: 2 ans
+      total_value: 6000
+      type: scholarship
+      provider: "Université de Moncton"
+      date: 2019
     - name: "Canadian Heritage Scholarship - 3rd cycle"
+      value: 10000
       type: scholarship
       provider: "Canadian Heritage"
       date: 2017
     - name: "Graduate Studies Scholarship of New Brunswick STGM et innovation sociale"
+      value: 7000
       type: scholarship
       provider: "Government of New Brunswick & Université de Moncton"
       date: 2017
     - name: "Interdisciplinary Research Scholarship - Master program"
       type: scholarship
       provider: EnviroNord
+      value: 17300
       date: 2012
 
+    - name: "Oral communication award, natural sciences, engineering and health, 3rd cycle - 2nd place"
+      type: award
+      provider: 31ème Colloque des Jeunes Chercheuses et Chercheurs 
+      value: 300
+      date: 2023
+    - name: "Oral communication award - 2nd place"
+      type: award
+      provider: 59e conférence de l'Atlantic Society of Fish and Wildlife Biologists
+      value: 100
+      date: 2022
+      location: Fredericton
+    - name: "My thesis in 180 seconds - regional competition - 2nd place"
+      type: award
+      provider: ACFAS
+      value: 300
+      date: 2021
+    - name: "Oral communication award, natural sciences, engineering and health, 3rd cycle - 2nd place"
+      type: award
+      provider: 31ème Colloque des Jeunes Chercheuses et Chercheurs 
+      value: 300
+      date: 2021
+      location: Moncton
+    - name: "Publication Excellence Award"
+      type: award
+      provider: Centre d'Études Nordiques
+      value: 150
+      date: 2016
+      location: Moncton
+    - name: "BORÉAS award for best popularized abstract"
+      type: award
+      provider: La Nature Dans Tous Ses États
+      value: 150
+      date: 2012
+      location: Rimouski
+    - name: "Oral communication award - 1st place"
+      type: award
+      provider: La Nature Dans Tous Ses États
+      value: 250
+      date: 2012
+
+
+# Prix d'excellence (Publication) - Centre d'Études Nordiques - 2016 - 150$
+# 2ème prix de communication orale - 59e conférence de l'Atlantic Society of Fish and Wildlife Biologists, Fredericton - 2022 - 100$
+# 2ème prix - Concours Régional Ma thèse en 180 secondes - ACFAS - 2021 - 300$
+# 2ème prix catégorie Sciences naturelles, génie et santé, 3e cycle - 31ème CJCC - Université de Moncton - 2021 - 300$
+# Prix BORÉAS du meilleur résumé vulgarisé - La Nature Dans Tous Ses États - UQAR - 2012 - 150$
+# Prix de communication orale - La Nature Dans Tous Ses États - EnviroNord - 2012 - 250$
 
 
 references:

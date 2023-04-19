@@ -420,35 +420,94 @@ presentations:
         province: Qu&eacute;bec
       conference:
 
-scholarships:
-  - title: "Bourse d’&eacute;tudes sup&eacute;rieures du Canada Alexander-Graham-Bell - doctorat"
-    type: scholarship
-    value: 35000
-    total_value: 70000
-    duration: 2 ans
-    organisme: CRSNG
-    date: 2019
-  - title: "Bourse d’&eacute;tudes sup&eacute;rieures de l’Universit&eacute; de Moncton - campus de Moncton"
-    type: scholarship
-    value: 3000
-    total_value: 6000
-    duration: 2 ans
-    organisme: Universit&eacute; de Moncton
-    date: 2019
+awards:
+  title: "Scholarships"
+  items:
+    - name: "Bourse d’&eacute;tudes sup&eacute;rieures du Canada Alexander-Graham-Bell - doctorat"
+      type: scholarship
+      value: 35000
+      total_value: 70000
+      duration: 2 ans
+      provider: Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG)
+      date: 2019
+    - name: "Bourse d’études supérieures du Nouveau-Brunswick"
+      value: 7000
+      duration: 2 ans
+      total_value: 14000
+      type: scholarship
+      provider: "Gouvernement du Nouveau-Brunswick"
+      date: 2019
+    - name: "Bourse d’&eacute;tudes sup&eacute;rieures de l’Universit&eacute; de Moncton - campus de Moncton"
+      value: 3000
+      duration: 2 ans
+      total_value: 6000
+      type: scholarship
+      provider: "Université de Moncton"
+      date: 2019
+    - name: "Bourse d'études supérieures Patrimoine canadien - 3&egrave;me cycle"
+      value: 10000
+      type: scholarship
+      provider: "Ministère du Patrimoine Canadien"
+      date: 2017
+    - name: "Bourse d’études supérieures du Nouveau-Brunswick, STGM et innovation sociale"
+      value: 7000
+      type: scholarship
+      provider: "Gouvernement du Nouveau-Brunswick & Université de Moncton"
+      date: 2017
+    - name: "Bourse de recherche interdisciplinaire à la maîtrise"
+      type: scholarship
+      provider: EnviroNord
+      value: 17300
+      date: 2012
+    - name: "Prix d'excellence (Publication)"
+      type: award
+      provider: Centre d'Études Nordiques
+      value: 150
+      date: 2016
+    - name: "2ème prix de communication orale"
+      type: award
+      provider: 59e conférence de l'Atlantic Society of Fish and Wildlife Biologists
+      value: 100
+      date: 2022
+      location: Fredericton
+    - name: "2ème prix - Concours Régional Ma thèse en 180 secondes"
+      type: award
+      provider: ACFAS
+      value: 300
+      date: 2021
+    - name: "2ème prix catégorie Sciences naturelles, génie et santé, 3e cycle"
+      type: award
+      provider: 31ème Colloque des Jeunes Chercheuses et Chercheurs 
+      value: 300
+      date: 2021
+      location: Moncton
+    - name: "2ème prix catégorie Sciences naturelles, génie et santé, 3e cycle"
+      type: award
+      provider: 31ème Colloque des Jeunes Chercheuses et Chercheurs 
+      value: 300
+      date: 2023
+      location: Moncton
+    - name: "Prix BORÉAS du meilleur résumé vulgarisé"
+      type: award
+      provider: La Nature Dans Tous Ses États
+      value: 150
+      date: 2012
+      location: Rimouski
+    - name: "Prix de communication orale"
+      type: award
+      provider: La Nature Dans Tous Ses États
+      value: 250
+      date: 2012
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
 
 references:
   title: "R&eacute;f&eacute;rences"
   persons:
+    - name: Amelia Cox
+      job: Biologiste quantitatif
+      location: Environnement et Changement climatique Canada
+      email: amelia.cox@ec.gc.ca
+      phone: (819) 938-5613
     - name: Fran&ccedil;ois Bolduc
       job: "Chef, Unit&eacute; des milieux marins et aquatiques r&eacute;gion du Qu&eacute;bec"
       location: Environnement et Changement climatique Canada
