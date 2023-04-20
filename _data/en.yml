@@ -198,7 +198,7 @@ job_experience:
       city: Gatineau
       province: Qu&eacute;bec
       country: Canada 
-    details: ["Translation in French of an existing R Markdown project aiming at generating a report on the population status of migratory game birds"]
+    details: ["Creation of the French version and update of a R Markdown report describing the population status of migratory game birds in Canada"] 
   - role: "R Workshop presenter"
     id: "R_CSBQ"
     tags: ["biology", "statistics", "teaching", "R"]
@@ -210,7 +210,7 @@ job_experience:
       year: 2023
     location:
       name: Qu&eacute;bec Center for Biodiversity Science / Universit&eacute; de Moncton
-    details: ["Creation and presentation of a series of R Workshops"]
+    details: ["Creation and presentation of a series of introductory R Workshops"]
   - role: "Biologist"
     id: "biologiste_EC2"
     tags: ["biology", "statistics", "package development", "data analysis", "R"]

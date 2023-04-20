@@ -62,6 +62,10 @@ months_short: [
   "D&eacute;c.",
   ]
 
+titles:
+  scholarships: Bourses
+  awards: Prix
+
 # Education
 education:
   title: Formation
@@ -151,14 +155,15 @@ education:
 profile:
   title: Comp&eacute;tences
   items: [
-    "Compiler, analyser et interpr&eacute;ter des donn&eacute;es scientifiques",
-    "R&eacute;diger et pr&eacute;senter des rapports scientifiques et vulgaris&eacute;s",
     "Double dipl&ocirc;me en Biologie et en Informatique",
+    "G&eacute;rer, analyser et interpr&eacute;ter de larges bases de donn&eacute;es scientifiques",
+    "Cr&eacute;er et utiliser des mod&egrave;les d'intelligence artificielle bas&eacute;s sur de l'apprentissage profond",
     "Bilingue fran&ccedil;ais/anglais",
-    "Mettre en place et utiliser des protocoles de collectes de donn&eacute;es et d'&eacute;chantillons",
-    "Capturer, manipuler et baguer des oiseaux marins (fous de bassan et eiders &agrave; duvet)",
-    "Bonnes capacit&eacute;s d'adaptation, de planification et apprentissage rapide",
+    "R&eacute;diger et pr&eacute;senter des rapports scientifiques et vulgaris&eacute;s",
+    #"Mettre en place et utiliser des protocoles de collectes de donn&eacute;es et d'&eacute;chantillons",
+    #"Capturer, manipuler et baguer des oiseaux marins (fous de bassan et eiders &agrave; duvet)",
     "D&eacute;velopper des logiciels dans divers langages de programmation (R, Python, Java, PHP, HTML, C, C++, HTML, Perl, Caml)",
+    "Bonnes capacit&eacute;s d'adaptation, de planification et apprentissage rapide",
   ]
     
 
@@ -166,203 +171,233 @@ profile:
 job_experience:
   title: Exp&eacute;riences professionnelles pertinentes
   jobs:
-    - role: "Biologiste"
-      id: "biologiste_EC2"
-      tags: ["biology", "statistics", "package development", "data analysis", "R"]
-      start:
-        month: 2
-        year: 2022
-      end:
-        month: 3
-        year: 2022
-      location:
-        name: "Service Canadien de la Faune"
-        city: Gatineau
-        province: Qu&eacute;bec
-        country: Canada 
-      details: ["Cr&eacute;ation d'un package R pour estimer l'abondance de populations de sauvagine a partir de donn&eacute;es de baguage"]
-    - role: "Pr&eacute;sentateur d'ateliers de formation &agrave; R"
-      id: "R_CSBQ"
-      tags: ["biology", "statistics", "teaching", "R"]
-      start:
-        month: 6
-        year: 2014
-      end:
-        month: 12
-        year: 2022
-      location:
-        name: Centre de la Science de la Biodiversit&eacute; du Qu&eacute;bec (CSBQ)
-      # location:
-      #   name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
-      #   city: Rimouski
-      #   province: Qu&eacute;bec
-      #   country: Canada 
-      details: ["Conception et pr&eacute;sentation d’une s&eacute;rie d’ateliers de formation &agrave; l’outil de statistique R pour des &eacute;tudiants de 2e et 3e cycle universitaire"]
-    - role: "Biologiste"
-      id: "biologiste_EC"
-      tags: ["biology", "statistics", "data analysis", "R"]
-      start:
-        month: 12
-        year: 2016
-      end:
-        month: 3
-        year: 2018
-      location:
-        name: "Service Canadien de la Faune"
-        city: Qu&eacute;bec
-        province: Qu&eacute;bec
-        country: Canada 
-      details: ["Analyse de bases de donn&eacute;es d’observations d’oiseaux marins",
-                "D&eacute;veloppement d’outils et d’applications web avec R et Shiny"]
-    - role: "Consultant informatique"
-      id: "paniers"
-      tags: ["IT", "web design", "consulting"]
-      start:
-        year: 2009
-      end:
-        year: 2014
-      location:
-        name: "Paniers d'ici"
-        city: Rimouski
-        province: Qu&eacute;bec
-        country: Canada 
-      details: [
-        "D&eacute;veloppement de modules visant &agrave; am&eacute;liorer le confort d'utilisation du site de commande en ligne de l'OSBL Paniers d'ici pour la promotion des produits locaux",
-        "R&eacute;solution de probl&egrave;mes informatiques"
-        ]
-    - role: "Auxiliaire d'enseignement"
-      id: "labo_stats"
-      tags: ["biology", "teaching", "statistics", "R"]
-      start:
-        month: 9
-        year: 2013
-      end:
-        month: 12
-        year: 2013
-      location:
-        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
-        city: Rimouski
-        province: Qu&eacute;bec
-        country: Canada 
-      details: ["Enseignement de laboratoires dans le cours de Biostatistiques I "]
-    - role: "Animateur d'ateliers de vulgarisation"
-      id: "atelier_bio"
-      tags: ["biology", "teaching", "popularization"]
-      start:
-        month: 1
-        year: 2012
-      end:
-        month: 04
-        year: 2013
-      location:
-        name: "Carrefour des sciences"
-        city: Rimouski
-        province: Qu&eacute;bec
-        country: Canada 
-      details: ["Conception et animation d'un atelier sur la biodiversit&eacute; animale pour des &eacute;tudiants de secondaire dans le cadre des journ&eacute;es <i>J'suis capable</i>"]
-    - role: "Auxiliaire d'enseignement"
-      id: "labo_physio1"
-      tags: ["biology", "teaching", "physiology"]
-      start:
-        month: 9
-        year: 2012
-      end:
-        month: 12
-        year: 2012
-      location:
-        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
-        city: Rimouski
-        province: Qu&eacute;bec
-        country: Canada 
-      details: ["Enseignement de laboratoires dans le cours de Physiologie Animale I"]
-    - role: "Auxiliaire d'enseignement"
-      id: "labo_physio2"
-      tags: ["biology", "teaching", "physiology"]
-      start:
-        month: 1
-        year: 2012
-      end:
-        month: 5
-        year: 2012
-      location:
-        name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
-        city: Rimouski
-        province: Qu&eacute;bec
-        country: Canada 
-      details: ["Enseignement de laboratoires dans le cours de Physiologie Animale II"]
-    - role: "Assistant de recherche"
-      id: "recherche_fous"
-      tags: ["biology", "birds", "data analysis", "banding"]
-      start:
-        month: 5
-        year: 2010
-      end:
-        month: 8
-        year: 2011
-      location:
-        name: "Laboratoire d'ornithologie marine - UQAR"
-        city: Rimouski
-        province: Qu&eacute;bec
-        country: Canada 
-      details: [
-        "Suivi du succ&egrave;s de reproduction et &eacute;tude de l'impact du d&eacute;versement p&eacute;trolier du Golfe du Mexique de 2010 chez les fous de Bassan de l'&icirc;le Bonaventure, Qu&eacute;bec",
-        "Analyse de donn&eacute;es de temp&eacute;rature provenant de consignateurs internes implant&eacute;s chez des eiders &agrave; duvet"
-        ]
-    - role: "Assistant de recherche"
-      id: "recherche_arbres"
-      tags: ["biology", "forestery", "data analysis", "ArcGis"]
-      start:
-        month: 5
-        year: 2009
-      end:
-        month: 8
-        year: 2009
-      location:
-        name: "Laboratoire d'&eacute;cologie historique et de dendrochronologie - UQAR"
-        city: Rimouski
-        province: Qu&eacute;bec
-        country: Canada 
-      details: [
-        "Recomposition de la for&ecirc;t pr&eacute;industrielle du Qu&eacute;bec &agrave; partir d'archives d'arpentage et num&eacute;risation dans un SIG (ArcGIS 9.3)",
-        "&Eacute;chantillonnage de tronc d'arbres reposant au fond de lacs"
-        ]
-    - role: "Ing&eacute;nieur recherche et d&eacute;veloppement J2EE"
-      id: "Ippon"
-      tags: ["IT", "web design"]
-      start:
-        month: 1
-        year: 2006
-      end:
-        month: 8
-        year: 2008
-      location:
-        name: "Ippon Technologies"
-        city: Levallois Perret
-        country: France
-      details: [
-        "D&eacute;veloppement et maintenance de portails coop&eacute;ratifs dans des &eacute;quipes pouvant aller jusqu'&agrave; 15 personnes",
-        "Formation et conseil des utilisateurs et clients"
-        ]
-    - role: "Stage en tant que d&eacute;veloppeur J2EE"
-      id: "Vietnam"
-      tags: ["IT", "web design"]
-      start:
-        month: 10
-        year: 2004
-      end:
-        month: 2
-        year: 2005
-      location:
-        name: "TMA Solutions"
-        city: H&ocirc; Chi Minh City
-        country: Vietnam
-      details: [
-        "D&eacute;veloppement d'un nouvel intranet au sein d'une &eacute;quipe poss&eacute;dant une culture et une langue diff&eacute;rente",
-        ]
+  - role: "Auxiliaire d'enseignement"
+    id: "TA_biometry"
+    tags: ["teaching", "biology", "statistics"]
+    start:
+      month: 1
+      year: 2023
+    end:
+      month: 
+      year: Present
+    location:
+      name: "Universit&eacute; de Moncton"
+      city: Moncton
+      province: Nouveau-Brunswick
+      country: Canada 
+    details: ["Enseignement et correction de devoir dans le cadre du cours de 'Biom&eacute;trie'"]
+  - role: "Biologiste"
+    id: "biologiste_EC3"
+    tags: ["biology", "statistics", "Rmarkdown", "report creation", "R"]
+    start:
+      month: 1
+      year: 2023
+    end:
+      month: 3
+      year: 2023
+    location:
+      name: "Service Canadien de la Faune"
+      city: Gatineau
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Creation de la version fran&ccedil;aise et mise &agrave; jour d'un rapport R Markdown d&eacute;crivant le statut des populations d’oiseaux migrateurs considérés comme gibier au Canada"]
+  - role: "Pr&eacute;sentateur d'ateliers de formation &agrave; R"
+    id: "R_CSBQ"
+    tags: ["biology", "statistics", "teaching", "R"]
+    start:
+      month: 6
+      year: 2014
+    end:
+      month: 04
+      year: 2023
+    location:
+      name: Centre de la Science de la Biodiversit&eacute; du Qu&eacute;bec / Universit&eacute; de Moncton
+    details: ["Conception et pr&eacute;sentation d’une s&eacute;rie d’ateliers de formation &agrave; l’outil de statistique R"]
+  - role: "Biologiste"
+    id: "biologiste_EC2"
+    tags: ["biology", "statistics", "package development", "data analysis", "R"]
+    start:
+      month: 2
+      year: 2022
+    end:
+      month: 3
+      year: 2022
+    location:
+      name: "Service Canadien de la Faune"
+      city: Gatineau
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Cr&eacute;ation d'un package R pour estimer l'abondance de populations de sauvagine a partir de donn&eacute;es de baguage"]
+  - role: "Biologiste"
+    id: "biologiste_EC"
+    tags: ["biology", "statistics", "data analysis", "R"]
+    start:
+      month: 12
+      year: 2016
+    end:
+      month: 3
+      year: 2018
+    location:
+      name: "Service Canadien de la Faune"
+      city: Qu&eacute;bec
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Analyse de bases de donn&eacute;es d’observations d’oiseaux marins",
+              "D&eacute;veloppement d’outils et d’applications web avec R et Shiny"]
+  - role: "Consultant informatique"
+    id: "paniers"
+    tags: ["IT", "web design", "consulting"]
+    start:
+      year: 2009
+    end:
+      year: 2014
+    location:
+      name: "Paniers d'ici"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: [
+      "D&eacute;veloppement de modules visant &agrave; am&eacute;liorer le confort d'utilisation du site de commande en ligne de l'OSBL Paniers d'ici pour la promotion des produits locaux",
+      "R&eacute;solution de probl&egrave;mes informatiques"
+      ]
+  - role: "Auxiliaire d'enseignement"
+    id: "labo_stats"
+    tags: ["biology", "teaching", "statistics", "R"]
+    start:
+      month: 9
+      year: 2013
+    end:
+      month: 12
+      year: 2013
+    location:
+      name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Enseignement de laboratoires dans le cours de Biostatistiques I "]
+  - role: "Animateur d'ateliers de vulgarisation"
+    id: "atelier_bio"
+    tags: ["biology", "teaching", "popularization"]
+    start:
+      month: 1
+      year: 2012
+    end:
+      month: 04
+      year: 2013
+    location:
+      name: "Carrefour des sciences"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Conception et animation d'un atelier sur la biodiversit&eacute; animale pour des &eacute;tudiants de secondaire dans le cadre des journ&eacute;es <i>J'suis capable</i>"]
+  - role: "Auxiliaire d'enseignement"
+    id: "labo_physio1"
+    tags: ["biology", "teaching", "physiology"]
+    start:
+      month: 9
+      year: 2012
+    end:
+      month: 12
+      year: 2012
+    location:
+      name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Enseignement de laboratoires dans le cours de Physiologie Animale I"]
+  - role: "Auxiliaire d'enseignement"
+    id: "labo_physio2"
+    tags: ["biology", "teaching", "physiology"]
+    start:
+      month: 1
+      year: 2012
+    end:
+      month: 5
+      year: 2012
+    location:
+      name: Universit&eacute; du Qu&eacute;bec &agrave; Rimouski
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: ["Enseignement de laboratoires dans le cours de Physiologie Animale II"]
+  - role: "Assistant de recherche"
+    id: "recherche_fous"
+    tags: ["biology", "birds", "data analysis", "banding"]
+    start:
+      month: 5
+      year: 2010
+    end:
+      month: 8
+      year: 2011
+    location:
+      name: "Laboratoire d'ornithologie marine - UQAR"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: [
+      "Suivi du succ&egrave;s de reproduction et &eacute;tude de l'impact du d&eacute;versement p&eacute;trolier du Golfe du Mexique de 2010 chez les fous de Bassan de l'&icirc;le Bonaventure, Qu&eacute;bec",
+      "Analyse de donn&eacute;es de temp&eacute;rature provenant de consignateurs internes implant&eacute;s chez des eiders &agrave; duvet"
+      ]
+  - role: "Assistant de recherche"
+    id: "recherche_arbres"
+    tags: ["biology", "forestery", "data analysis", "ArcGis"]
+    start:
+      month: 5
+      year: 2009
+    end:
+      month: 8
+      year: 2009
+    location:
+      name: "Laboratoire d'&eacute;cologie historique et de dendrochronologie - UQAR"
+      city: Rimouski
+      province: Qu&eacute;bec
+      country: Canada 
+    details: [
+      "Recomposition de la for&ecirc;t pr&eacute;industrielle du Qu&eacute;bec &agrave; partir d'archives d'arpentage et num&eacute;risation dans un SIG (ArcGIS 9.3)",
+      "&Eacute;chantillonnage de tronc d'arbres reposant au fond de lacs"
+      ]
+  - role: "Ing&eacute;nieur recherche et d&eacute;veloppement J2EE"
+    id: "Ippon"
+    tags: ["IT", "web design"]
+    start:
+      month: 1
+      year: 2006
+    end:
+      month: 8
+      year: 2008
+    location:
+      name: "Ippon Technologies"
+      city: Levallois Perret
+      country: France
+    details: [
+      "D&eacute;veloppement et maintenance de portails coop&eacute;ratifs dans des &eacute;quipes pouvant aller jusqu'&agrave; 15 personnes",
+      "Formation et conseil des utilisateurs et clients"
+      ]
+  - role: "Stage en tant que d&eacute;veloppeur J2EE"
+    id: "Vietnam"
+    tags: ["IT", "web design"]
+    start:
+      month: 10
+      year: 2004
+    end:
+      month: 2
+      year: 2005
+    location:
+      name: "TMA Solutions"
+      city: H&ocirc; Chi Minh City
+      country: Vietnam
+    details: [
+      "D&eacute;veloppement d'un nouvel intranet au sein d'une &eacute;quipe poss&eacute;dant une culture et une langue diff&eacute;rente",
+      ]
 
 publications:
   title: Publications
   items:
+    - title: "ArcticBirdSounds: An open-access, multiyear, and detailed annotated dataset of bird songs and calls"
+      authors: Christin, S., Chicoine, C., O'Neill Sanger, T., Guigueno, M. F., Hansen, J., Lanctot, R. B., MacNearney, D., Rausch, J., Saalfeld, S. T., Schmidt, N. M., Smith, P. A., Woodard, P. F., Hervet, &Eacute;., & Lecomte, N.
+      journal: Ecology
+      date: 2023
+      DOI: "https://doi.org/10.1002/ecy.4047"
     - title: "Introducing Mouffet, a unified framework to make model creation easier and more reproducible"
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
       journal: BioRxiv (pre-print)
