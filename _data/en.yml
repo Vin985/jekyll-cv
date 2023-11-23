@@ -177,7 +177,8 @@ job_experience:
       city: Sackville
       province: New Brunswick
       country: Canada
-      details: ["Regional assessment for the development of Offshore Wind Energy in the Atlantic region", "Analysis of various wildlife datasets (tracking data, surveys, monitoring, etc.)"]
+    details: ["Regional assessment for the development of Offshore Wind Energy in the Atlantic region", 
+              "Analysis of various wildlife datasets (tracking data, surveys, monitoring, etc.)"]
 
   - role: "Teaching assistant"
     id: "TA_biometry"

@@ -179,7 +179,8 @@ job_experience:
       city: Sackville
       province: Nouveau-Brunswick
       country: Canada
-      details: ["Participation &agrave; une &eacute;tude d'impact r&eacute;gionale pour le d&eacute;veloppement &eacute;olien en mer dans la r&eacute;gion Atlantique", "Analyse de jeux de vari&eacute;s (donn&eacute;s de mouvement, inventaires, suivis etc.)"]
+    details: ["Participation &agrave; une &eacute;tude d'impact r&eacute;gionale pour le d&eacute;veloppement &eacute;olien en mer dans la r&eacute;gion Atlantique",
+              "Analyse de jeux de donn&eacute;s vari&eacute;s (donn&eacute;s de mouvement, inventaires, suivis etc.)"]
   - role: "Auxiliaire d'enseignement"
     id: "TA_biometry"
     tags: ["teaching", "biology", "statistics"]
