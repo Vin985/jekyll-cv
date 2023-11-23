@@ -155,9 +155,9 @@ education:
 profile:
   title: Comp&eacute;tences
   items: [
-    "Double dipl&ocirc;me en Biologie et en Informatique",
-    "G&eacute;rer, analyser et interpr&eacute;ter de larges bases de donn&eacute;es scientifiques",
+    "G&eacute;rer, analyser et interpr&eacute;ter des bases de donn&eacute;es scientifiques vari&eacute;es",
     "Cr&eacute;er et utiliser des mod&egrave;les d'intelligence artificielle bas&eacute;s sur de l'apprentissage profond",
+    "Double dipl&ocirc;me en Biologie et en Informatique",
     "Bilingue fran&ccedil;ais/anglais",
     "R&eacute;diger et pr&eacute;senter des rapports scientifiques et vulgaris&eacute;s",
     #"Mettre en place et utiliser des protocoles de collectes de donn&eacute;es et d'&eacute;chantillons",
@@ -171,6 +171,15 @@ profile:
 job_experience:
   title: Exp&eacute;riences professionnelles pertinentes
   jobs:
+  - role: "Biologiste sp&eacute;cialiste en analyse de donn&eacute;es"
+    id: "CWS-OSW"
+    tags: ["movement", "CWS"]
+    location:
+      name: "Service Canadien de la Faune"
+      city: Sackville
+      province: Nouveau-Brunswick
+      country: Canada
+      details: ["Participation &agrave; une &eacute;tude d'impact r&eacute;gionale pour le d&eacute;veloppement &eacute;olien en mer dans la r&eacute;gion Atlantique", "Analyse de jeux de vari&eacute;s (donn&eacute;s de mouvement, inventaires, suivis etc.)"]
   - role: "Auxiliaire d'enseignement"
     id: "TA_biometry"
     tags: ["teaching", "biology", "statistics"]

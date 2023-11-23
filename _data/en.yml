@@ -154,9 +154,9 @@ education:
 profile:
   title: Skills
   items: [
-    "Double diplomas in Biology (PhD) and Computer Science (Engineering degree)",
-    "Manage, analyze and interpret large scientific datasets",
+    "Manage, analyze and interpret diverse scientific datasets",
     "Create and use artificial intelligence models based on deep learning",
+    "Double diplomas in Biology (PhD) and Computer Science (Engineering degree)",
     "Bilingual French/English",
     "Write and present scientific reports",
     # "Create and set up data collection protocols",
@@ -169,6 +169,16 @@ profile:
 job_experience:
   title: Relevant professional experiences
   jobs:
+  - role: "Biologist - Data analyst"
+    id: "CWS-OSW"
+    tags: ["movement", "CWS"]
+    location:
+      name: "Canadian Wildlife Service"
+      city: Sackville
+      province: New Brunswick
+      country: Canada
+      details: ["Regional assessment for the development of Offshore Wind Energy in the Atlantic region", "Analysis of various wildlife datasets (tracking data, surveys, monitoring, etc.)"]
+
   - role: "Teaching assistant"
     id: "TA_biometry"
     tags: ["teaching", "biology", "statistics"]
