@@ -172,6 +172,12 @@ job_experience:
   - role: "Biologist - Data analyst"
     id: "CWS-OSW"
     tags: ["movement", "CWS"]
+    start:
+      month: 6
+      year: 2023
+    end:
+      month: 
+      year: Present
     location:
       name: "Canadian Wildlife Service"
       city: Sackville

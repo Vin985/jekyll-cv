@@ -174,6 +174,12 @@ job_experience:
   - role: "Biologiste sp&eacute;cialiste en analyse de donn&eacute;es"
     id: "CWS-OSW"
     tags: ["movement", "CWS"]
+    start:
+      month: 6
+      year: 2023
+    end:
+      month: 
+      year: Present
     location:
       name: "Service Canadien de la Faune"
       city: Sackville
