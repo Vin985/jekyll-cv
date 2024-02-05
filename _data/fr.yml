@@ -181,6 +181,12 @@ job_experience:
       country: Canada
     details: ["Participation &agrave; une &eacute;tude d'impact r&eacute;gionale pour le d&eacute;veloppement &eacute;olien en mer dans la r&eacute;gion Atlantique",
               "Analyse de jeux de donn&eacute;s vari&eacute;s (donn&eacute;s de mouvement, inventaires, suivis etc.)"]
+    start:
+      month: 6
+      year: 2023
+    end:
+      month: 
+      year: Present
   - role: "Auxiliaire d'enseignement"
     id: "TA_biometry"
     tags: ["teaching", "biology", "statistics"]
@@ -188,8 +194,8 @@ job_experience:
       month: 1
       year: 2023
     end:
-      month: 
-      year: Present
+      month: 4 
+      year: 2023
     location:
       name: "Universit&eacute; de Moncton"
       city: Moncton
@@ -403,6 +409,16 @@ job_experience:
 publications:
   title: Publications
   items:
+    - title: "ECOGEN: Bird sounds generation using deep learning"
+      authors: Guei, A-C., Christin, S., Lecomte, N. & Hervet, &Eacute;.
+      journal:  Methods in Ecology and Evolution
+      date: 2024
+      DOI: "https://doi.org/10.1111/2041-210X.14239"
+    - title: "Taking the Pulse of Changing Phenologies and Biodiversity: The Acoustic Way"
+      authors: Christin, S. & Lecomte, N.
+      journal: The Bulletin of the Ecological Society of America
+      date: 2023
+      DOI: https://doi.org/10.1111/10.1002/bes2.2085"
     - title: "ArcticBirdSounds: An open-access, multiyear, and detailed annotated dataset of bird songs and calls"
       authors: Christin, S., Chicoine, C., O'Neill Sanger, T., Guigueno, M. F., Hansen, J., Lanctot, R. B., MacNearney, D., Rausch, J., Saalfeld, S. T., Schmidt, N. M., Smith, P. A., Woodard, P. F., Hervet, &Eacute;., & Lecomte, N.
       journal: Ecology
@@ -439,6 +455,14 @@ presentations:
   oral.title: Pr&eacute;sentations orales
   posters.title: Pr&eacute;sentations par affiche
   oral:
+    - title: Studying the phenology of circumpolar birds with acoustic monitoring
+      type: poster
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 12/2022
+      location:
+        city: Toronto
+        country: Canada
+        province: Ontario
     - title: Studying the phenology of circumpolar birds with acoustic monitoring
       type: poster
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
@@ -528,7 +552,7 @@ awards:
       location: Moncton
     - name: "2ème prix catégorie Sciences naturelles, génie et santé, 3e cycle"
       type: award
-      provider: 31ème Colloque des Jeunes Chercheuses et Chercheurs 
+      provider: 33ème Colloque des Jeunes Chercheuses et Chercheurs 
       value: 300
       date: 2023
       location: Moncton
