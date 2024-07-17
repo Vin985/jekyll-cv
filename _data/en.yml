@@ -154,7 +154,8 @@ education:
 profile:
   title: Skills
   items: [
-    "Manage, analyze and interpret varied scientific datasets",
+    "Manage, analyze and interpret varied wildlife datasets",
+    "Perform spatio-temporal analyses and mapping using R, QGIS and ArcGIS Pro",
     "Create and use artificial intelligence models based on deep learning",
     "Double diplomas in Biology (PhD) and Computer Science (Engineering degree)",
     "Bilingual French/English",
@@ -169,7 +170,7 @@ profile:
 job_experience:
   title: Relevant professional experiences
   jobs:
-  - role: "Biologist - Data analyst"
+  - role: "Wildlife Biologist - Data analyst"
     id: "CWS-OSW"
     tags: ["movement", "CWS"]
     location:
@@ -178,8 +179,7 @@ job_experience:
       province: New Brunswick
       country: Canada
     details: ["Regional assessment for the development of Offshore Wind Energy in the Atlantic region", 
-              "Analysis of various wildlife datasets (tracking data, surveys, monitoring, etc.)"]
-
+              "Spatio-temporal analysis of various wildlife datasets (tracking data, surveys, monitoring, etc.)"]
   - role: "Teaching assistant"
     id: "TA_biometry"
     tags: ["teaching", "biology", "statistics"]
@@ -567,16 +567,16 @@ awards:
 references:
   title: "References"
   persons:
-    - name: Amelia Cox
-      job: Quantitative Biologist
+    - name: Joshua Mailhiot
+      job: Head of Regulatory Affairs, Atlantic Region
       location: Environment and Climate Change Canada
-      email: amelia.cox@ec.gc.ca
-      phone: (819) 938-5613
-    - name: Fran&ccedil;ois Bolduc
-      job: "Head, Marine and Aquatic Habitats Unit Québec Region"
-      location: Environment and Climate Change Canada
-      email: francois.bolduc@canada.ca
-      phone: (418) 640-2910
+      email: joshua.mailhiot@ec.gc.ca
+      phone: (902) 407-7790
+    # - name: Amelia Cox
+    #   job: Quantitative Biologist
+    #   location: Environment and Climate Change Canada
+    #   email: amelia.cox@ec.gc.ca
+    #   phone: (819) 938-5613
     - name: Nicolas Lecomte
       job: Associate professor
       location: Universit&eacute; de Moncton
