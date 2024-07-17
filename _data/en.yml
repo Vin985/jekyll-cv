@@ -173,6 +173,12 @@ job_experience:
   - role: "Wildlife Biologist - Data analyst"
     id: "CWS-OSW"
     tags: ["movement", "CWS"]
+    start:
+      month: 6
+      year: 2023
+    end:
+      month: 
+      year: Present
     location:
       name: "Canadian Wildlife Service"
       city: Sackville
@@ -187,8 +193,8 @@ job_experience:
       month: 1
       year: 2023
     end:
-      month: 
-      year: Present
+      month: 4
+      year: 2023
     location:
       name: "Universit&eacute; de Moncton"
       city: Moncton
