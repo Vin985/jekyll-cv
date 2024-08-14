@@ -156,7 +156,9 @@ profile:
   title: Comp&eacute;tences
   items: [
     "G&eacute;rer, analyser et interpr&eacute;ter des bases de donn&eacute;es scientifiques vari&eacute;es",
-    "Cr&eacute;er et utiliser des mod&egrave;les d'intelligence artificielle bas&eacute;s sur de l'apprentissage profond",
+    "Executer des analyses spatio-temporelles et cr&eacute;ation de cartes &agrave; l'aide de R, QGIS et ArcGis Pro",
+    "G&eacute;rer des bases de donn&eacute;es &agrave; l'aide de MS Access, SQL, Oracle",
+    #"Cr&eacute;er et utiliser des mod&egrave;les d'intelligence artificielle bas&eacute;s sur de l'apprentissage profond",
     "Double dipl&ocirc;me en Biologie et en Informatique",
     "Bilingue fran&ccedil;ais/anglais",
     "R&eacute;diger et pr&eacute;senter des rapports scientifiques et vulgaris&eacute;s",
@@ -186,7 +188,8 @@ job_experience:
       province: Nouveau-Brunswick
       country: Canada
     details: ["Participation &agrave; une &eacute;tude d'impact r&eacute;gionale pour le d&eacute;veloppement &eacute;olien en mer dans la r&eacute;gion Atlantique",
-              "Analyse de jeux de donn&eacute;s vari&eacute;s (donn&eacute;s de mouvement, inventaires, suivis etc.)"]
+              "Analyse de jeux de donn&eacute;s vari&eacute;s (donn&eacute;s de mouvement, inventaires, suivis etc.)",
+              "Creation d'une base de donn&eacute;es de donn&eacute;es de suive &agrave; l'aide de MS Access"]
     start:
       month: 6
       year: 2023
