@@ -581,18 +581,23 @@ awards:
 references:
   title: "R&eacute;f&eacute;rences"
   persons:
-    - name: Amelia Cox
-      job: Biologiste quantitatif
-      location: Environnement et Changement climatique Canada
-      email: amelia.cox@ec.gc.ca
-      phone: (819) 938-5613
-    - name: Fran&ccedil;ois Bolduc
-      job: "Chef, Unit&eacute; des milieux marins et aquatiques r&eacute;gion du Qu&eacute;bec"
-      location: Environnement et Changement climatique Canada
-      email: francois.bolduc@canada.ca
-      phone: (418) 640-2910
     - name: Nicolas Lecomte
       job: Professeur Agr&eacute;g&eacute;
       location: Universit&eacute; de Moncton
       email: nicolas.lecomte@umoncton.ca
       phone: (506) 858-4291
+    # - name: Christine Gilroy
+    #   job: Coordonnatrice, Evaluations environnementales
+    #   location: Environnement et Changement climatique Canada
+    #   email: christine.gilroy@ec.gc.ca
+    #   phone: (506) 540-1516  
+    - name: Paul Knaga
+      job: Biologiste de la faune 
+      location: Environnement et Changement climatique Canada
+      email: paul.knaga@ec.gc.ca
+      phone: (902) 407-8457
+    - name: Joshua Mailhiot
+      job: Chef des Affaires R&egrave;glementaires, R&eacute;gion de l'Atlantique
+      location: Environnement et Changement climatique Canada
+      email: joshua.mailhiot@ec.gc.ca
+      phone: (902) 407-7790

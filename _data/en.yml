@@ -575,6 +575,21 @@ awards:
 references:
   title: "References"
   persons:
+    - name: Nicolas Lecomte
+      job: Associate professor
+      location: Universit&eacute; de Moncton
+      email: nicolas.lecomte@umoncton.ca
+      phone: (506) 858-4291
+    # - name: Christine Gilroy
+    #   job: Coordinator, Environmental Assessment
+    #   location: Environment and Climate Change Canada
+    #   email: christine.gilroy@ec.gc.ca
+    #   phone: (506) 540-1516  
+    - name: Paul Knaga
+      job: Wildlife Biologist
+      location: Environment and Climate Change Canada
+      email: paul.knaga@ec.gc.ca
+      phone: (902) 407-8457
     - name: Joshua Mailhiot
       job: Head of Regulatory Affairs, Atlantic Region
       location: Environment and Climate Change Canada
@@ -585,8 +600,3 @@ references:
     #   location: Environment and Climate Change Canada
     #   email: amelia.cox@ec.gc.ca
     #   phone: (819) 938-5613
-    - name: Nicolas Lecomte
-      job: Associate professor
-      location: Universit&eacute; de Moncton
-      email: nicolas.lecomte@umoncton.ca
-      phone: (506) 858-4291
