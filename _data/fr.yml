@@ -461,45 +461,135 @@ publications:
 
 presentations:
   title: Pr&eacute;sentations
-  oral.title: Pr&eacute;sentations orales
-  posters.title: Pr&eacute;sentations par affiche
+  oral_title: Pr&eacute;sentations orales
+  poster_title: Pr&eacute;sentations par affiche
+  poster:
+    - title: Studying the phenology of circumpolar birds with acoustic monitoring
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2022
+      meeting: ArcticNet Annual Scientific Meeting
+      location:
+        city: Toronto
+        country: Canada
+        province: Ontario
+    - title: "&Eacute;tude de la ph&eacute;nologie des oiseaux arctiques: une approche bioacoustique"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2018
+      meeting: Colloque du Centre d’&Eacute;tudes Nordiques
+      location:
+        city: Sherbrooke
+        country: Canada
+        province: Qu&eacute;bec
+    - title: Optimisation de donn&eacute;es satellitaires Argos r&eacute;colt&eacute;es en milieu terrestre polaire
+      authors: Christin, S., St-Laurent, M.-H. & Berteaux, D.
+      date: 2022
+      meeting: 81e congr&egrave;s de l’ACFAS, colloque 651 – colloque du Centre d’&Eacute;tudes Nordiques
+      location:
+        city: Qu&eacute;bec
+        country: Canada
+        province: Qu&eacute;bec
+
   oral:
-    - title: Studying the phenology of circumpolar birds with acoustic monitoring
-      type: poster
+    - title: "&Eacute;tude de la ph&eacute;nologie des oiseaux Arctiques &agrave; l’aide de suivi acoustique &agrave; large &eacute;chelle"
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
-      date: 12/2022
+      date: 2023
+      meeting: 33e Colloque des Jeunes Chercheuses et Chercheurs
       location:
-        city: Toronto
+        city: Moncton
         country: Canada
-        province: Ontario
-    - title: Studying the phenology of circumpolar birds with acoustic monitoring
-      type: poster
-      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
-      date: 12/2022
-      location:
-        city: Toronto
-        country: Canada
-        province: Ontario
+        province: New Brunswick
     - title: Studying bird phenology with passive acoustic monitoring and deep learning
       type: oral
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
-      date: 10/2022
-      location:
-        city: Fredericton
-        country: Canada
-        province: Nouveau Brunswick
-    - title: Studying bird phenology with passive acoustic monitoring and deep learning
-      type: oral
-      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
-      date: 08/2022
+      date: 2022
+      meeting: Annual meeting of the Ecological Society of America - Canadian Society for Ecology and Evolution
       location:
         city: Montr&eacute;al
         country: Canada
         province: Qu&eacute;bec
-      conference:
+    - title: Vers l’automatisation &agrave; large &eacute;chelle du suivi ph&eacute;nologique des oiseaux
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2021
+      meeting: 31e Colloque des Jeunes Chercheuses et Chercheurs
+      location:
+        city: Moncton
+        country: Canada
+        province: New Brunswick
+    - title: Listening to the clocks of circumpolar birds using autonomous recorders and deep learning
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2019
+      meeting: ArcticNet Annual Scientific Meeting
+      location:
+        city: Halifax
+        country: Canada
+        province: Nova Scotia
+    - title: "Large scale monitoring of avian phenology: the bioacoustic way"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2018
+      meeting: ArcticNet Annual Scientific Meeting
+      location:
+        city: Ottawa
+        country: Canada
+        province: Ontario
+    - title: "Large scale monitoring of avian phenology: the bioacoustic way"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2018
+      meeting: 43e Congr&egrave;s de la SQEBC
+      location:
+        city: Trois-Rivi&egrave;res
+        country: Canada
+        province: Qu&eacute;bec
+    - title: "&Eacute;tude de la ph&eacute;nologie des oiseaux arctiques: une approche bioacoustique"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2018
+      meeting: 29e Colloque des Jeunes Chercheuses et Chercheurs
+      location:
+        city: Moncton
+        country: Canada
+        province: New Brunswick
+    - title: "Impact of climatic perturbations on the phenology of arctic birds: The bioacoustic way"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2017
+      meeting: ArcticChange
+      location:
+        city: Qu&eacute;bec
+        country: Canada
+        province: Qu&eacute;bec
+    - title: Are arctic melodies getting warmer too?
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2017
+      meeting: ArcticChange - Elevator pitch
+      location:
+        city: Qu&eacute;bec
+        country: Canada
+        province: Qu&eacute;bec
+    - title: "Renard, y-es-tu?"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2013
+      meeting: Colloque de vulgarisation scientifique La Nature dans tous ses &Eacute;tats
+      location:
+        city: Rimouski
+        country: Canada
+        province: Qu&eacute;bec
+    - title: "Optimisation de donn&eacute;es satellitaires Argos r&eacute;colt&eacute;es en milieu terrestre polaire - Discours Express"
+      authors: Christin, S., St-Laurent, M.-H. & Berteaux, D.
+      date: 2013
+      meeting: "81e congr&egrave;s de l’ACFAS, colloque 651 – colloque du Centre d’&Eacute;tudes Nordiques"
+      location:
+        city: Qu&eacute;bec
+        country: Canada
+        province: Qu&eacute;bec
+    - title: L’histoire sans pin
+      authors: Christin, S., Cotnoir, M & Arseneault, D.
+      date: 2012
+      meeting: Colloque de vulgarisation scientifique La Nature dans tous ses &Eacute;tats
+      location:
+        city: Rimouski
+        country: Canada
+        province: Qu&eacute;bec
 
 awards:
-  title: "Scholarships"
+  title: "Bourses et prix"
   items:
     - name: "Bourse d’&eacute;tudes sup&eacute;rieures du Canada Alexander-Graham-Bell - doctorat"
       type: scholarship
