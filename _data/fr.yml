@@ -464,6 +464,14 @@ presentations:
   oral_title: Pr&eacute;sentations orales
   poster_title: Pr&eacute;sentations par affiche
   poster:
+    - title: "&Eacute;tude de la ph&eacute;nologie des oiseaux Arctiques &agrave; l’aide de suivi acoustique &agrave; large &eacute;chelle"
+      authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
+      date: 2023
+      meeting: Colloque du Centre d’&Eacute;tudes Nordiques
+      location:
+        city: Rimouski
+        country: Canada
+        province: Qu&eacute;bec
     - title: Studying the phenology of circumpolar birds with acoustic monitoring
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
       date: 2022
@@ -507,6 +515,14 @@ presentations:
         city: Montr&eacute;al
         country: Canada
         province: Qu&eacute;bec
+    - title: Seacute;reacute;nades Arctiques
+      authors: Christin, S.
+      date: 2021
+      meeting: Ma th&egrave;se en 180 secondes - Finale R&eacute;gionale
+      location:
+        city: Moncton
+        country: Canada
+        province: New Brunswick
     - title: Vers l’automatisation &agrave; large &eacute;chelle du suivi ph&eacute;nologique des oiseaux
       authors: Christin, S., Hervet, &Eacute;., & Lecomte, N.
       date: 2021
